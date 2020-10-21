@@ -4,3 +4,106 @@
     box-sizing: border-box;
     font-family: Yekan;
 }
+
+ /* ------------------- Header --------------------- */
+
+.container {
+    font-size: x-large; 
+    font-family: yekan;
+}
+
+.header {
+    display: flex;
+    direction: rtl;
+    padding-block-start: 4rem;
+    padding-inline-start: 5rem;
+    padding-block-end: 5rem;
+    padding-inline-end: 5rem;
+}
+
+.header-items {
+    margin: auto;
+}
+
+.header-list {
+    list-style: none;
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+
+.header-list-link {
+    text-decoration: none;
+    color: #0061b6;
+    font-size: 20px;
+    padding-right: 1rem;
+}
+.header-button {
+    background-color: #E6F3FF;
+    border: none;
+    color: #1894FF;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ /* ------------------- Darmanito Application  --------------------- */
+
+ .doctor-img {
+    float: left;    
+    padding-left: 12rem;
+ }
+
+ .doctor-text {
+    direction: rtl;
+    padding-inline-start: 20rem;
+    padding-block-start: 8rem;
+ }
+ 
+ .doctor-text1 {
+    direction: rtl;
+    padding-inline-start: 20rem;
+    padding-block-start: 2rem;
+ }
+
+ .p1{
+    font-size: 3rem;
+ }
+
+ .p2 {
+    font-size: 1rem;
+ }
+
+ .doctor-button {
+    background-color: #1894FF;
+    border: none;
+    color: white;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+
+ .doctor-button-withoutcolor {
+    background-color: white;
+    border-color: #c2daff;
+    border-style: double;
+    color: #1894FF;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+  /* ------------------- Darmanito About --------------------- */
