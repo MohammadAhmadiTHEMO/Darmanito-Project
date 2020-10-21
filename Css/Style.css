@@ -7,9 +7,12 @@
 
  /* ------------------- Header --------------------- */
 
+ h1 {
+    color: #0061b6;
+ }
+
 .container {
-    font-size: x-large; 
-    font-family: yekan;
+    font-size: x-large;
 }
 
 .header {
@@ -70,11 +73,8 @@
     padding-block-start: 2rem;
  }
 
- .p1{
-    font-size: 3rem;
- }
 
- .p2 {
+ .p {
     font-size: 1rem;
  }
 
@@ -107,3 +107,40 @@
     border-radius: 10px;
  }
   /* ------------------- Darmanito About --------------------- */
+
+  .about {
+    display: inline-flex;
+    padding-top: 10rem;
+    padding-right: 15rem;
+}
+
+.text {
+    direction: rtl;
+    padding-top: 5rem;
+    padding-right: 12rem;
+}
+
+.about-title {
+    border-right: 4px solid #05FEA3;
+    padding-right: 0.8rem;
+    border-radius: 6px;
+    color: #0061b6;
+}
+
+.p1 {
+    width: 80%;
+    line-height: 30px;  
+}
+
+.about-item {
+    display: inline-flex;
+    padding-top: 3rem;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+ /* ------------------- Darmanito Soloution --------------------- */
