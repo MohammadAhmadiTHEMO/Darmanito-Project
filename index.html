@@ -6,11 +6,19 @@
         <link rel="stylesheet" href="Css/style.css">
         <link rel="shortcut icon" type="image.svg" href="img/icon.svg">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            </script>
         <title>Darmanito</title>
     </head>
 
     <body>
-        
         <header class="container">
             <div class="header">
                 <div class="header-logo">
@@ -42,7 +50,22 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="">
+
+                <div class="burger" onclick="openNav()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">عضویت داروخانه ها</a>
+                    <a href="#">تماس با ما</a>
+                    <a href="#">درباره ما</a>
+                    <a href="#">صفحه اصلی</a>
+                </div>
+                  
+                <div class="header-items">
                     <Button class="header-button">
                         دانلود درمانیتو
                     </Button>
@@ -50,6 +73,9 @@
             </div>
         </header>
         
+        <section>
+
+        </section>
         <div class="container">
             <div class="app-img">
                 <img src="img/doctor.svg" alt="دکتر">
@@ -71,7 +97,11 @@
                 </button>
             </div>
         </div>
-        
+
+        <div>
+            <a href="#"><img src="img/about.svg" alt="Darmanito About"></a>
+        </div>
+
         <div class="about">
             <section class="Text">
                 <div class="about-title">
@@ -109,12 +139,14 @@
                     </p>
                 </div>
             </section>
-            <div>
+            
+            <!-- <div>
                 <a href="#"><img src="img/about.svg" alt="Darmanito About"></a>
-            </div>
+            </div> -->
         </div>
 
-        <div class="possibilities">
+
+        <!-- <div class="possibilities">
             <h2 class="possibilities-title">امکانات درمانیتو</h2>
             <div class="possibilities-base">
                 <div class="possibilities-container">
@@ -187,9 +219,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="app-download">
+        <!-- <div class="app-download">
             <div class="pic">
                 <img src="img/screenshot.png" alt="mobile">
             </div>
@@ -232,9 +264,9 @@
                     </a>
                 </section>
             </div>
-        </div>
+        </div> -->
 
-        <div class="membership">
+        <!-- <div class="membership">
             <div class="membership-base">
                 <div class="membership-img">
                     <img class="membership-doctor-img" src="img/footer.svg" alt="membershiop">
@@ -259,9 +291,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <footer class="footer">
+        <!-- <footer class="footer">
             <div class="cover">
                 <ul class="contact">
                     <li>
@@ -385,6 +417,6 @@
                     </section>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </body>
 </html>
