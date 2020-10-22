@@ -1,7 +1,13 @@
+@font-face {
+    src: url("../fonts/Yekan.ttf");
+    font-family: Yekan;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    src: url("../fonts/Yekan.ttf");
     font-family: Yekan;
 }
 
@@ -247,3 +253,540 @@
     margin: 0 auto;
     padding: 1rem 3rem;
 }
+
+ /* ------------------- Darmanito Application Download --------------------- */
+
+.h1 {
+    color: white;
+}
+ .app-download {
+    background-color: #1091ff;
+    display: flex;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.pic {
+    width: 50%;
+}
+
+.pic img {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 2rem;
+    border-radius: 45px 45px 0px 0px;
+}
+
+.number {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    direction: rtl;
+    padding: 6rem 5rem;
+    color: white;
+}
+
+.number-h3 {
+    padding-top: 1rem;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.send input {
+    width: 82%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ ::placeholder {
+    font-size: 15px;
+}
+
+.send input:focus {
+    outline: 0;
+}
+
+.send button {
+    border: none;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.send button h4 {
+    background-color: #1091ff;
+    color: white;
+    padding: 0.7rem 2rem;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.send button:focus {
+    outline: 0;
+}
+
+.download-link {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.download-link a {
+    display: flex;
+    align-items: center;
+    background-color: #2162b7;
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 9px
+}
+
+.android p {
+    padding-right: 1rem;
+}
+
+.bazzar p,
+.bazzar img {
+    padding-right: 0.5rem;
+}
+
+.sibapp p {
+    font-size: 12px;
+}
+
+.sibapp-section {
+    padding-right: 0.7rem;
+}
+
+#error {
+    padding: 1rem;
+    color: red;
+    font-size: 15px;
+    display: none;
+}
+
+#error2 {
+    padding: 1rem;
+    color: red;
+    font-size: 15px;
+    display: none;
+}
+
+ /* ------------------- Darmanito Membership --------------------- */
+
+.membership {
+    padding: 2rem 10rem;
+}
+
+.membership-base {
+    display: flex;
+    box-shadow: 0px 0px 10px #7cc6e6;
+    border-radius: 12px;
+}
+
+.membership-img {
+    width: 50%;
+}
+
+.membership-text {
+    width: 65%;
+    padding-top: 2rem;
+}
+
+.membership-doctor-img {
+    width: 400px;
+    padding: 4rem 2rem 0rem 2rem;
+}
+
+.membership-title {
+    direction: rtl;
+    display: flex;
+    border-right: 2px solid #05FEA3;
+    width: 85%;
+    margin: 0 auto;
+    padding-right: 0.8rem;
+    border-radius: 3px;
+    color: #0061b6;
+}
+
+.membership-p {
+    direction: rtl;
+    padding: 3rem;
+}
+
+.membership-form-send {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 2rem;
+    direction: rtl;
+}
+
+.membership-form-send input {
+    width: 82%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(224, 224, 224);
+}
+
+ ::placeholder {
+    font-size: 15px;
+}
+
+.membership-form-send input:focus {
+    outline: 0;
+}
+
+.membership-form-send button {
+    border: none;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px 0px 0px 15px;
+    background-color: rgb(224, 224, 224);
+    width: 45%;
+}
+
+.membership-form-send button p {
+    background-color: #1091ff;
+    color: white;
+    padding: 0.7rem 2rem;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.membership-form-send button:focus {
+    outline: 0;
+}
+
+/* ------------------- Darmanito Footer --------------------- */
+
+.cover {
+    background-color: #1091ff;
+    padding: 2rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover ul {
+    list-style: none;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    color: white;
+}
+
+.ul-li {
+    padding-right: 1.5rem;
+}
+
+.contact li p {
+    background: rgb(0, 0, 180);
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.footer-base {
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul ul {
+    list-style-type: none;
+    text-align: end;
+}
+
+.footer-ul ul li {
+    padding-top: 1rem;
+}
+
+.footer-ul ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.link-actived {
+    color: #0061b6;
+    border-right: 2px solid #05FEA3;
+    padding-right: 0.5rem;
+}
+
+.link-disabled {
+    color: gray;
+}
+
+.contact-us {
+    width: 30%;
+}
+
+.contact-us h4 {
+    direction: rtl;
+    padding-top: 1rem;
+}
+
+.contact-us p {
+    direction: rtl;
+    padding-top: 1rem;
+}
+
+.contact-us .section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-us .section p {
+    direction: rtl;
+    padding-right: 0.5rem;
+}
+
+.first {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.second {
+    padding-top: 0.7rem;
+}
+
+.link-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-section a {
+    padding: 0.5rem;
+    color: gray;
+}
+
+.link-footer-actived {
+    color: #0061b6;
+}
+
+.link-section a i {
+    font-size: 25px;
+}
+
+.footer-brand {
+    width: 15%;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.footer-link a {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 9px
+}
+
+.footer-sibapp {
+    direction: rtl;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.footer-bazzar {
+    direction: rtl;
+    display: flex;
+}
+
+.footer-bazzar p,
+.footer-bazzar img {
+    padding-right: 0.5rem;
+}
+
+.footer-sibapp p {
+    font-size: 12px;
+}
+
+.footer-sibapp-section {
+    padding-right: 0.7rem;
+}
+
+.link-title {
+    display: flex;
+    justify-content: center;
+}
+
+/* ------------------- Responsive --------------------- */
+
+@media(min-width:1385px) and (max-width:1500px) {
+
+    .app-text {
+        padding-inline-start: 8rem;
+    }
+    .app-text1 {
+        padding-inline-start: 8rem;
+    }
+    .app-img {
+        padding-left: 9rem;
+    }
+    .about {
+        padding-right: 5rem;
+    }
+    .text {
+        padding-right: 6rem;
+    }
+    .possibilities-container {
+        height: fit-content;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1385px) {
+    
+    .app-text {
+        padding-inline-start: 5rem;
+    }
+    .app-text1 {
+        padding-inline-start: 5rem;
+    }
+    .app-img {
+        padding-left: 6rem;
+    }
+    .about {
+        padding-right: 5rem;
+    }
+    .text {
+        padding-right: 4rem;
+    }
+    .possibilities {
+        padding: 5rem 5rem; 
+    }
+    .possibilities-container {
+        height: fit-content;
+    }
+    .footer-base {
+        padding: 4rem 3rem;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1200px) {
+    
+    .header {
+        padding-inline-start: 2rem;
+        padding-inline-end: 2rem;
+    }
+    .header-list {
+        list-style: none;
+        display: contents;;
+    }
+    .app-text {
+        padding-inline-start: 4rem;
+    }
+    .app-text1 {
+        padding-inline-start: 4rem;
+    }
+    .app-img {
+        padding-left: 3rem;
+    }
+    .about {
+        padding-right: 4rem;
+    }
+    .text {
+        padding-right: 4rem;
+    }
+    .possibilities {
+        padding: 5rem 2rem; 
+    }
+    .possibilities-container {
+        height: fit-content;
+    }
+    .possibilities-text {
+        padding-right: 3rem;
+    }
+    .number {
+        padding: 2rem 0rem;
+    }
+    .pic {
+        width: 45%;
+    }
+    .membership {
+        padding: 2rem 1rem;
+    }
+    .cover {
+        padding: 2rem 2rem;
+    }
+    .footer-base {
+        padding: 4rem 1rem;
+    }
+
+    @media(min-width:600px) and (max-width:1000px) {
+    
+        .header {
+            padding-inline-start: 2rem;
+            padding-inline-end: 2rem;
+        }
+        .header-list {
+            list-style: none;
+            display: contents;;
+        }
+        .app-text {
+            padding-inline-start: 4rem;
+        }
+        .app-text1 {
+            padding-inline-start: 4rem;
+        }
+        .app-img {
+            padding-left: 3rem;
+        }
+        .about {
+            padding-right: 4rem;
+        }
+        .text {
+            padding-right: 4rem;
+        }
+        .possibilities {
+            padding: 5rem 2rem; 
+        }
+        .possibilities-container {
+            height: fit-content;
+        }
+        .possibilities-text {
+            padding-right: 3rem;
+        }
+        .number {
+            padding: 2rem 0rem;
+        }
+        .pic {
+            width: 45%;
+        }
+        .membership {
+            padding: 2rem 1rem;
+        }
+        .cover {
+            padding: 2rem 2rem;
+        }
+        .footer-base {
+            padding: 4rem 1rem;
+        }
