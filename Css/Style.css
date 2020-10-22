@@ -56,18 +56,18 @@
 
  /* ------------------- Darmanito Application  --------------------- */
 
- .doctor-img {
+ .app-img {
     float: left;    
     padding-left: 12rem;
  }
 
- .doctor-text {
+ .app-text {
     direction: rtl;
     padding-inline-start: 20rem;
     padding-block-start: 8rem;
  }
  
- .doctor-text1 {
+ .app-text1 {
     direction: rtl;
     padding-inline-start: 20rem;
     padding-block-start: 2rem;
@@ -78,7 +78,7 @@
     font-size: 1rem;
  }
 
- .doctor-button {
+ .app-button {
     background-color: #1894FF;
     border: none;
     color: white;
@@ -92,7 +92,7 @@
     border-radius: 10px;
  }
 
- .doctor-button-withoutcolor {
+ .app-button-withoutcolor {
     background-color: white;
     border-color: #c2daff;
     border-style: double;
@@ -108,7 +108,7 @@
  }
   /* ------------------- Darmanito About --------------------- */
 
-  .about {
+.about {
     display: inline-flex;
     padding-top: 10rem;
     padding-right: 15rem;
@@ -143,4 +143,107 @@
     cursor: pointer;
 }
 
- /* ------------------- Darmanito Soloution --------------------- */
+ /* ------------------- Darmanito Possibilities --------------------- */
+
+ .possibilities {
+    padding: 5rem 10rem;
+    direction: rtl;
+}
+
+.possibilities-title {
+    color: #0061b6;
+    border-right: 4px solid #05FEA3;
+    padding-right: 0.8rem;
+}
+
+.possibilities-base {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.possibilities-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.possibilities-items {
+    justify-content: center;
+    display: flex;
+}
+
+.possibilities-button,
+.actived {
+    width: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 0px 8px #a3daf1;
+    border: none;
+    padding: 2rem 3rem;
+}
+
+.disable {
+    box-shadow: 0px 0px 8px gray;
+    color: gray;
+    opacity: 0.5;
+}
+
+.possibilities-button:focus {
+    outline: 0;
+}
+
+.possibilities-button h3 {
+    padding-top: 0.5rem;
+}
+
+.img {
+    width: 60px;
+}
+
+.possibilities-text {
+    padding-right: 7rem;
+}
+
+.text-ex {
+    width: 72%;
+    line-height: 40px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.steps {
+    display: flex;
+    align-items: center;
+}
+
+.steps-img {
+    width: 5%;
+    padding: 0.5rem;
+    background-color: #c7e8f7;
+    border-radius: 30px;
+}
+
+.text-steps {
+    padding-right: 1rem;
+}
+
+.steps-ex {
+    width: 95.5%;
+    margin: 0 auto;
+    border-right: 1px solid gray;
+    padding: 1rem 3rem;
+}
+
+.steps-img-check {
+    width: 5%;
+    padding: 0.5rem;
+    background-color: #05FEA3;
+    border-radius: 30px;
+}
+
+.steps-ex-check {
+    width: 95.5%;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+}
