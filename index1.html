@@ -1,12 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="Css/style.css">
+        <link rel="shortcut icon" type="image.svg" href="img/icon.svg">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="js/js.js"></script>
         <title>Darmanito</title>
     </head>
 
     <body>
-        
+        <header class="container1">
+            <div class="header">
+                <div class="header-logo">
+                    <a href="index.html" class="link"><img src="img/logo.svg" alt="درمانیتو"></a>
+                </div>
+                <div class="header-items">
+                    <nav>
+                        <ul class="header-ul">
+                            <li class="header-list">
+                                <a class="header-list-link" href="index.html">
+                                     صفحه اصلی 
+                                </a>
+                            </li>
+                            <li class="header-list">
+                                <a class="header-list-link" href="#">
+                                    درباره ما 
+                                </a>
+                            </li>
+                            <li class="header-list">
+                                <a class="header-list-link" href="#">
+                                    تماس با ما 
+                                </a>
+                            </li>
+                            <li class="header-list">
+                                <a class="header-list-link" href="index1.html">
+                                    عضویت داروخانه 
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="burger" onclick="openNav()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">عضویت داروخانه ها</a>
+                    <a href="#">تماس با ما</a>
+                    <a href="#">درباره ما</a>
+                    <a href="#">صفحه اصلی</a>
+                </div>
+                  
+                <div class="header-items">
+                    <Button class="header-button">
+                        دانلود درمانیتو
+                    </Button>
+                </div>
+            </div>
+        </header>
+
+        <div class="row center-item">
+            <div class="col-6 padding1">
+                <div class="card  border-none">
+                    <div class="padding2">
+                        <div class="card-body border1">
+                        <img src="img/Human.svg" alt="Human" class="human">
+                        <h5 class="card-title text-align">نام داروخانه شما</h5>
+                        <p class="card-text text-align">درمانیتو ، سرویس داروخانه ، داروخانه شما</p>
+                        <a href="#" class="btn btn-primary">شبانه روزی</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card  border-none">
+                    <div class="padding3">
+                        <div class="card-body border1">
+                        <img src="img/Human.svg" alt="Human" class="human pic-size ">
+                        <h6 class="card-title text-align">نام داروخانه شما</h6>
+                        <p class="card-text text-align font-size1">درمانیتو ، سرویس داروخانه ، داروخانه شما</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  border-none">
+                    <div class="padding4">
+                        <div class="card-body border1">
+                        <img src="img/Human.svg" alt="Human" class="human">
+                        <h6 class="card-title text-align ">نام داروخانه شما</h6>
+                        <p class="card-text text-align font-size2">درمانیتو ، سرویس داروخانه ، داروخانه شما</p>
+                        <a href="#" class="btn btn-primary">شبانه روزی</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 padding">
+                <h1 class="h1-blue text-align">
+                    شما هم در سلامت و بهبود مردم کشورمون موثر باشید
+                </h1>
+                <h5 class="number-h3 text-align">
+                    با ثبت نام به عنوان داروخانه یا فروشگاه و داروخانه شما هم به سیستم درمان کمک کنید و به هزاران کاربر خدمات ارائه بدین و روزانه درآمد سفارش های خودتون رو تسویه کنید
+                </h5>
+                <section class="send">
+                    <button id="button" class="btn btn-primary">
+                        <h4>
+                            ثبت نام سریع
+                        </h4>
+                    </button>
+                    <input id="input" type="text" placeholder=" شماره همراه را وارد کنید : 09912515020 ">
+                </section>
+                <div class="error" id="error">
+                    لطفا شماره را درست وارد کنید
+                </div>
+            </div>
+          </div>
+
+          <div class="cover">
+          </div>
+          
+    <div class="padding-darmanito">  
+        <h2 class="possibilities-title text-align">در درمانیتو چه خدمات ارائه خواهید داد؟</h2>
+        <h6 class="text-align">خدمت مورد نظر خود را برای ثبت نام انتخاب کنید</h6>
+    </div>    
+    <div class="card-deck padding-top">
+        <div class="card border1">
+          <img class="card-img-top max-inline-size" src="img/MakeupStore.svg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">فروشگاه آرایشی و بهداشتی</h5>
+            <p class="card-text">
+                مایل هستم فقط بعنوان داروخانه فعالیت کنم و در بخش صرفا سفارش دارو با عکس نسخه به بیماران کمک رسانی کنم 
+            </p>
+            <a href="#" class="btn btn-primary">ثبت نام</a>
+          </div>
+        </div>
+        <div class="card border1">
+            <div>
+                <img class="card-img-top max-inline-size" src="img/DrugStore2.svg" alt="Card image cap">
+            </div>
+          <div class="card-body">
+            <h5 class="card-title">داروخانه</h5>
+            <p class="card-text">
+                مایل هستم فقط بعنوان داروخانه فعالیت کنم و در بخش صرفا سفارش دارو با عکس نسخه به بیماران کمک رسانی کنم 
+            </p>
+            <a href="#" class="btn btn-primary">ثبت نام</a>
+          </div>
+        </div>
+      </div>
+         
+        <footer class="footer">
+            <div class="cover">
+                <ul class="contact">
+                    <li>
+                        <p>پشتیبانی:44444444-021</p>
+                    </li>
+                </ul>
+                <ul class="ul">
+                    <li class="ul-li">
+                        <h4>
+                            پاسخگویی در روز های کاری از 9 صبح تا 9 شب
+                        </h4>
+                    </li>
+                    <li>
+                        <h1 class="h1">
+                            پشتیبانی درمانیتو
+                        </h1>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-base">
+                <div class="link">
+                    <h3 class="link-title">
+                        دانلود درمانیتو
+                    </h3>
+                    <section class="footer-link">
+                        <a class="footer-sibapp" href="#">
+                            <img src="img/sib app logo.svg" alt="sibApp-logo">
+                            <section class="footer-sibapp-section">
+                                <p>
+                                    دریافت نسخه ios از 
+                                </p>
+                                <img src="img/sib app text.svg" alt="sibApp-logo">
+                            </section>
+                        </a>
+                        <a class="footer-bazzar" href="#">
+                            <p>
+                                دریافت از
+                            </p>
+                            <img src="img/bazzar text.svg" alt="bazzar-text">
+                            <img src="img/bazzar logo.svg" alt="bazzar-logo">
+                        </a>
+                    </section>
+                </div>
+                <div class="footer-ul">
+                    <ul>
+                        <li>
+                            <h3>
+                                صفحات درمانیتو
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="#">
+                                تماس با ما 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                درباره ما 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                سوالات متداول
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                قوانین و شرایط
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <h3>
+                                خدمات درمانیتو
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="#">
+                               داروخانه آنلاین
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                فروشکاه آنلاین 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                ویزیت آنلاین
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               پرونده پزشکی
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-us">
+                    <section class="section">
+                        <p><span class="first">درمانیتو</span><br><span class="second">همراه شما در زمان</span></p>
+                        <img class="footer-brand" src="img/brand.png" alt="brand-darmanito">
+                    </section>
+                    <h4>
+                        سوپر اپلیکیشن حوزه درمان و سلامت 
+                    </h4>
+                    <p>
+                        تمام حقوق مادی و معنوی این وبسایت متعلق به درمانیتو است
+                    </p>
+                    <section class="link-section">
+                        <a href="#">
+                            <i class='fab fa-instagram'></i>
+                        </a>
+                        <a href="#">
+                            <i class='fab fa-twitter'></i>
+                        </a>
+                        <a href="#">
+                            <i class='fab fa-linkedin-in'></i>
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
