@@ -12,7 +12,7 @@
 }
 
  /* ------------------- Header --------------------- */
-
+ 
  h1 {
     color: #0061b6;
  }
@@ -708,7 +708,7 @@
         padding-inline-start: 4rem;
     }
     .app-img {
-        padding-left: 3rem;
+        padding: 0rem;
     }
     .about {
         padding-right: 4rem;
@@ -726,7 +726,7 @@
         padding-right: 3rem;
     }
     .number {
-        padding: 2rem 0rem;
+        padding: 0rem 0rem;
     }
     .pic {
         width: 45%;
@@ -742,6 +742,100 @@
     }
 }
 @media(max-width:600px) {
+    .cover {
+        flex-direction: column-reverse;
+        padding: inherit;
+    }
+    
+    .ul {
+        flex-direction: column-reverse;
+        padding-bottom: 2rem;
+    }
+    .link {
+        display: none;
+    }
+    .footer-ul {
+        display: none;
+    }
+    
+    .contact-us {
+        width: 100%;
+    }
+    .link-section {
+        padding-top: 2rem;
+        position: absolute;
+    }
+    .cover ul {
+        padding-bottom: 1rem;
+    }
+    .footer-base {
+        padding: 4rem 2rem;
+    }
+    .membership-img{
+        display: none;
+    }
+    .membership-doctor-img2 {
+        display: block;
+        width: 400px;
+        padding: 4rem 2rem 0rem 2rem;
+    }
+    .download-link {
+        display: revert;
+        padding: 0rem 7rem;
+    }
+    .pic2 {
+        width: 100%;
+    }
+    .membership {
+        padding: 0rem 0rem;
+    }
+    .membership-text {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .membership-form-send {
+        padding: 0rem 1rem 1rem 1rem;
+    }
+    .pic{
+        display: none;
+    }
+    .pic2 img {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 2rem;
+        border-radius: 45px 45px 0px 0px;
+    }
+    
+    .number {
+        width: 422px;
+        padding: 0rem 0rem
+    }
+    .number-h3 {
+        padding: 1rem 2rem 0rem 2rem;
+    }
+    .send {
+        padding: 0rem 2rem 1rem 2rem;
+    }
+    
+    .h1{
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .download-link a {
+        margin-bottom: 10px;
+    }
+    .possibilities {
+        padding: 1rem!important;
+        direction: rtl; 
+    }
+    .possibilities-text {
+        padding-right: 0rem;
+        padding-top: 2rem;
+    }
+    .possibilities-base {
+        display: block;
+        padding-top: 2rem;
+    }
     .app-img{
         padding-left: 0px!important;
     }
@@ -812,7 +906,7 @@
     }
     .about {
         display: inline-flex;
-        padding-top: 10rem;
+        padding-top: 0rem;
         padding-right: 1rem;
     }
     .p1 {
@@ -824,8 +918,33 @@
         padding-top: 5rem;
         padding-right: 0rem;
     }
+    .imgResponsive{
+        display: block;
+        padding: 6%;
+    }
+    .aboutImg{
+        display: none;
+    }
 }
     @media(min-width:600px) {
+        .membership-img{
+            display: block;
+        }
+        .membership-doctor-img2 {
+            display: none;
+        }
+        .pic2 {
+            display: none;
+        }
+        .pic {
+            display: flex;
+        }
+        .aboutImg{
+            display: block;
+        }
+        .imgResponsive{
+            display: none;
+        }
         .sidenav{
             display: none;
         }
