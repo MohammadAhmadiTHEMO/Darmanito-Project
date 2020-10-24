@@ -1,5 +1,5 @@
 @font-face {
-    src: url("../Assets/fonts/Yekan.ttf");
+    src: url("../fonts/Yekan.ttf");
     font-family: Yekan;
 }
 
@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    src: url("../Assets/fonts/Yekan.ttf");
+    src: url("../fonts/Yekan.ttf");
     font-family: Yekan;
 }
 
