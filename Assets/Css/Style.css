@@ -773,6 +773,7 @@
     }
 }
 
+
 @media(min-width:1200px) and (max-width:1385px) {
     
     .app-text {
@@ -1158,5 +1159,127 @@
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
       }
-
-      
+.col-61 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    direction: rtl;
+    margin: auto;
+    padding: 0rem 2rem;
+}
+.width-52 {
+    width: 52%;
+}
+.padding-block-end {
+    padding-block-end: 1rem;
+}
+.card-body1 {
+    display: flex;flex-wrap: wrap-reverse;align-items: center;white-space: pre-wrap;line-height: 0rem;justify-content: center;
+    display: flex;flex-wrap: wrap-reverse;align-items: center;white-space: pre-wrap;line-height: 0rem;justify-content: center;  
+}
+.Drug-name {
+    position: absolute;text-align-last: right ;font-size: larger;
+    position: absolute;text-align-last: right ;font-size: larger;
+}
+.border-radios {
+    border-radius: 2rem;
+}
+.flex-auto {
+    flex: auto;
+}
+.display-flex {
+    display: flex;justify-content: center;height: 9rem;
+}
+.width-42 {
+    width: 42%;line-height: 2rem;
+}
+.display-flex1 {
+    display: flex;place-content: flex-end;
+}
+.heigh-4 {
+    height: 4rem;
+}
+.padding-0 {
+    padding: 0px;
+}
+.questions2 {
+    text-align: center;display: flex;justify-content: center;flex-direction: row-reverse; padding-block-end: 5rem;
+}
+.card-activated {
+    width: 9rem;height: 8rem; align-items: center; padding: 1rem 3rem; margin: 0rem 4rem;
+}
+.card-disable {
+    width: 9rem;height: 8rem; border-radius: 25px;padding: 1rem 1rem; align-items: center; margin: 0rem 4rem;
+}
+.card-disable1 {
+    width: 9rem; height: 8rem; border-radius: 25px;padding: 1rem 1rem;  align-items: center; margin: 0rem 4rem;
+}
+.margin-top {
+    margin-top: 4px;
+}
+.padding-17 {
+    padding-block-start: 17rem;
+}
+      @media(min-width:800px) and (max-width:1490px) {
+        .center-item {
+            display: inline-block;
+        }
+        .display-flex {
+            display: none;
+        }
+        .display-flex1 {
+            display: none;
+        }
+        .width-52 {
+            width: 104%;
+        }
+        .header-ul {
+            display: flex;
+        }
+        .header-button {
+            padding: 13px 27px;
+        }
+        .padding {
+            PADDING: 7rem 0rem;
+            margin: auto;
+        }
+        .padding-darmanito {
+            padding-right: 3rem;
+            padding-top: 5rem;
+        }
+    }
+    @media(min-width:500px) and (max-width:800px) {
+        .center-item {
+            display: inline-block;
+        }
+        .display-flex {
+            display: none;
+        }
+        .display-flex1 {
+            display: none;
+        }
+        .width-52 {
+            width: 104%;
+        }
+        .header-ul {
+            display: flex;
+        }
+        .header-button {
+            padding: 13px 27px;
+        }
+        .padding {
+            PADDING: 7rem 0rem;
+            margin: auto;
+        }
+        .padding-darmanito {
+            padding-right: 3rem;
+            padding-top: 5rem;
+        }
+        .col-61 {
+            margin-left: auto;
+            margin-right: 4rem;
+        }
+        .width-52 {
+            width: 161%;
+        }
+    }
