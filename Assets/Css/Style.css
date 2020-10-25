@@ -110,9 +110,6 @@
 .font-size2 {
     font-size: 15px;
 }
-.pic-size {
-   
-}
 .human {
     float: right;
     padding-left: 9px;
@@ -1161,3 +1158,5 @@
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
       }
+
+      
