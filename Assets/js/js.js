@@ -1,8 +1,8 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("burger-main").style.width = "100%";
   }
   
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("burger-main").style.width = "0";
   }
   

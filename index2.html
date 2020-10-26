@@ -14,31 +14,31 @@
     </head>
 
     <body>
-        <header class="container1">
-            <div class="header">
-                <div class="header-logo">
-                    <a href="index.html" class="link1"><img src="Assets/img/logo.svg" alt="درمانیتو"></a>
+        <header class="header">
+            <div class="header-main">
+                <div class="header-main-logo">
+                    <a href="index.html" class="link1"><img src="Assets/img/logo.svg" alt="درمانیتو" ></a>
                 </div>
                 <div class="header-items">
                     <nav>
                         <ul class="header-ul">
-                            <li class="header-list">
-                                <a class="header-list-link" href="index.html">
+                            <li class="header-li">
+                                <a class="header-li-a" href="index.html">
                                      صفحه اصلی 
                                 </a>
                             </li>
-                            <li class="header-list">
-                                <a class="header-list-link" href="#">
+                            <li class="header-li">
+                                <a class="header-li-a" href="#">
                                     درباره ما 
                                 </a>
                             </li>
-                            <li class="header-list">
-                                <a class="header-list-link" href="index3.html">
+                            <li class="header-li">
+                                <a class="header-li-a" href="index3.html">
                                     تماس با ما 
                                 </a>
                             </li>
-                            <li class="header-list">
-                                <a class="header-list-link" href="index1.html">
+                            <li class="header-li">
+                                <a class="header-li-a" href="index1.html">
                                     عضویت داروخانه 
                                 </a>
                             </li>
@@ -46,38 +46,39 @@
                     </nav>
                 </div>
 
-                    <div class="burger" onclick="openNav()">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div>
+                <div class="burger" onclick="openNav()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
 
-                    <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <div class="header1">
-                            <div class="header-logo">
-                                <a href="index.html" class="link"><img src="Assets/img/logo.svg" alt="درمانیتو" ></a>
-                            </div>
+                <div id="burger-main" class="burger-main">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="burger-header">
+                        <div class="burger-header-logo">
+                            <a href="index.html" class="link"><img src="Assets/img/logo.svg" alt="درمانیتو" ></a>
                         </div>
-                        <div class="nav">    
-                            <div class="possibilities-title1">
-                                <a href="index1.html" >صفحه اصلی</a>
-                            </div>
-                            <a href="index1.html" style="color: black;">عضویت در داروخانه</a>
-                            <a href="#" style="color: black;">درباره ما</a>
-                            <a href="index3.html" style="color: black;">تماس با ما</a>
-                            <a href="index2.html" style="color: black;">سوالات متداول </a>
-                            <a href="#" style="color: black;">قوانین و شرایط </a>
-                        </div><br><hr>
-                        <div class="nav-button">
-                            <Button class="header-button1 ">
-                                دانلود مستقیم درمانیتو
-                            </Button>
+                    </div>
+                    <div class="burger-nav">    
+                        <div class="burger-nav-title">
+                            <a href="index1.html" >صفحه اصلی</a>
                         </div>
-                    </div>   
-                  
+                        <a href="index1.html" class="color-black">عضویت در داروخانه</a>
+                        <a href="#" class="color-black">درباره ما</a>
+                        <a href="index3.html" class="color-black">تماس با ما</a>
+                        <a href="index2.html" class="color-black">سوالات متداول </a>
+                        <a href="#" class="color-black">قوانین و شرایط </a>
+                    </div><br><hr>
+                    <div class="burger-nav-button">
+                        <Button class="burger-nav-button-style">
+                            دانلود مستقیم درمانیتو
+                        </Button>
+                    </div>
+                </div>
+
+
                 <div class="header-items">
-                    <Button class="header-button">
+                    <Button class="header-items-button">
                         دانلود درمانیتو
                     </Button>
                 </div>
@@ -95,11 +96,11 @@
         </div><br/>    
 
         <div class="padding-darmanito" style="padding-block-end: 5rem; padding-top: 8rem;">  
-            <h3 class="possibilities-title text-align">سوال شما درباره کدوم سرویس هست؟</h3>
+            <h3 class="possibilities-title text-align-right">سوال شما درباره کدوم سرویس هست؟</h3>
         </div>    
 
         <div class="questions2">
-            <div class="card actived card-activated">
+            <div class="card question-actived card-activated">
                 <img class="img heigh-4" src="Assets/img/drugstore.svg" alt="pharmacy" >
                 <div class="card-body padding-0">
                 <p class="card-text">داروخانه</p>
@@ -125,7 +126,7 @@
             </div>
         </div>
 
-        <div class="padding-darmanito text-align" style="padding-top: 0rem; padding-left: 8rem; padding-bottom: 12rem;">
+        <div class="padding-darmanito text-align-right" style="padding-top: 0rem; padding-left: 8rem; padding-bottom: 12rem;">
             <div>
                 <div>
                    <h5 style="color: #0061b6;"> هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟ <span style="font-size: 3rem;margin-left: 1rem; color:  #0061b6 ;"> + </span></h5> 
@@ -156,8 +157,8 @@
         </div>
 
         <footer class="footer">
-            <div class="cover">
-                <ul class="contact">
+            <div class="cover-s">
+                <ul class="cover-contact">
                     <li>
                         <p>پشتیبانی:44444444-021</p>
                     </li>
@@ -175,12 +176,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-base">
-                <div class="link">
-                    <h3 class="link-title">
+            <div class="footer-main-s">
+                <div class="footer-main-link">
+                    <h3 class="footer-main-link-title">
                         دانلود درمانیتو
                     </h3>
-                    <section class="footer-link">
+                    <section class="footer-link-download">
                         <a class="footer-sibapp" href="#">
                             <img src="Assets/img/sib app logo.svg" alt="sibApp-logo">
                             <section class="footer-sibapp-section">
@@ -202,7 +203,7 @@
                 <div class="footer-ul">
                     <ul>
                         <li>
-                            <h3>
+                            <h3 class="footer-h3">
                                 صفحات درمانیتو
                             </h3>
                         </li>
@@ -229,7 +230,7 @@
                     </ul>
                     <ul>
                         <li>
-                            <h3>
+                            <h3 class="footer-h3">
                                 خدمات درمانیتو
                             </h3>
                         </li>
@@ -255,7 +256,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="contact-us">
+                <div class="footer-contact-us text-align-right">
                     <section class="section">
                         <p><span class="first">درمانیتو</span><br><span class="second">همراه شما در زمان</span></p>
                         <img class="footer-brand" src="Assets/img/brand.png" alt="brand-darmanito">
