@@ -383,18 +383,22 @@
     display: inline-flex;
     padding-top: 10rem;
     padding-right: 15rem;
+    margin: auto;
 }
 
-.about-text {
+.about-section {
     direction: rtl;
-    padding-top: 5rem;
-    padding-right: 12rem;
+}
+.about-text {
+    padding-right: 7rem;
+}
+.about-images {
+    padding-right: 4.5rem;
 }
 
 .about-text-title {
     border-right: 4px solid #05FEA3;
-    padding-right: 0.8rem;
-    border-radius: 6px;
+    border-radius: 2px;
     color: #0061b6;
     direction: rtl;
     padding-right: 1rem;
@@ -407,7 +411,7 @@
 
 .about-items {
     display: inline-flex;
-    padding-top: 3rem;
+    padding-top: 1rem;
     flex-flow: column;
     align-items: center;
     background-color: white;
@@ -419,7 +423,7 @@
  /* ------------------- Darmanito Possibilities --------------------- */
 
  .possibilities {
-    padding: 5rem 10rem;
+    padding: 12rem 10rem;
     direction: rtl;
 }
 
@@ -443,9 +447,6 @@
 .possibilities-main-items {
     justify-content: center;
     display: flex;
-}
-.actived {
-
 }
 .possibilities-main-items-button
  {
@@ -899,6 +900,13 @@
     text-decoration: none;
     color: gray;
 }
+.footer-li-a-style {
+    border-right: 4px solid #05FEA3;
+    padding-right: 0.8rem;
+}
+.footer-li-a-color {
+    color: #0061b6; 
+}
 
 .link-actived {
     color: #0061b6;
@@ -1170,7 +1178,7 @@
         margin: 0 auto;
         display: flex;
         padding-top: 2rem;
-        border-radius: 45px 45px 0px 0px;
+        border-radius: 60px 60px 0px 0px;
     }
     
     .app-phone-number {
@@ -1543,4 +1551,10 @@
             display: block;
             padding: 15%;
         }
+    }
+    .dropDown {
+        display: none;
+    }
+    .dropUp{
+        display: block;
     }
