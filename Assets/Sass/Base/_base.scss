@@ -12,6 +12,7 @@
 }
 
 /* ------------------- General --------------------- */
+
 .heigh-auto {
     height: auto;
  }
@@ -583,7 +584,7 @@
 }
 
 .app-phone-number-h3 {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
 }
 
 .app-phone-number-send {
@@ -627,6 +628,9 @@
 
 .app-phone-number-send button:focus {
     outline: 0;
+}
+.app-phone-number-h1 {
+    padding-top: 1rem;
 }
 
 .app-download-link {
@@ -765,6 +769,10 @@
 
 .membership-form-send button:focus {
     outline: 0;
+}
+.membership-text-title-a {
+    text-decoration: none;
+    color: #0061b6;
 }
 
 /* ------- Darmanito membership (Index1) ------- */
@@ -1052,6 +1060,35 @@
 
 /* ------------------- Responsive --------------------- */
 
+@media(min-width:1400px) and (max-width:1512px) {
+    .center-item {
+        display: inline-block;
+    }
+    .display-flex {
+        display: none;
+    }
+    .display-flex1 {
+        display: none;
+    }
+    .width-52 {
+        width: 104%;
+    }
+    .header-ul {
+        display: flex;
+    }
+    .header-button {
+        padding: 13px 27px;
+    }
+    .padding {
+        PADDING: 7rem 0rem;
+        margin: auto;
+    }
+    .padding-darmanito {
+        padding-right: 3rem;
+        padding-top: 5rem;
+    }
+}
+
 @media(min-width:1385px) and (max-width:1500px) {
 
     .app-text {
@@ -1075,16 +1112,34 @@
 }
 
 
-@media(min-width:1200px) and (max-width:1385px) {
+@media(min-width:1200px) and (max-width:1400px) {
     
+    .footer-main {
+        padding: 4rem 3rem;
+    }
     .app-text {
         padding-inline-start: 5rem;
     }
-    .app-button-text {
+    .app-button {
         padding-inline-start: 5rem;
     }
+   .cover {
+    padding: 2rem 4rem;
+   }
     .app-img {
         padding-left: 6rem;
+    }
+    .app-phone-number {
+        padding: 4rem 3rem;
+    }
+    .app-phone-number-h1 {
+        padding-top: 2.5rem;
+    }
+    .app-phone-number-h3 {
+        padding-top: 1rem;
+    }
+    .membership {
+        padding: 2rem 6rem;
     }
     .about {
         padding-right: 5rem;
@@ -1102,8 +1157,13 @@
         padding: 4rem 3rem;
     }
 }
+@media (min-width: 1200px) and (max-width : 1250px) {
+    .app-phone-number {
+        padding: 4rem 2rem;
+    }
+}
 
-@media(min-width:1000px) and (max-width:1199px) {
+@media(min-width:1100px) and (max-width:1199px) {
     
     .header-main {
         padding-inline-start: 2rem;
@@ -1113,15 +1173,18 @@
         list-style: none;
     }
     .app-text {
-        padding-inline-start: 4rem;
+        padding-inline-start: 5rem;
     }
-    .app-button-text {
-        padding-inline-start: 4rem;
-    }
-    .app-img {
-        padding: 0rem;
+    .app-button {
+        padding-inline-start: 5rem;
     }
     .about {
+        padding-right: 1rem;
+    }
+    .about-images {
+        padding-right: 1rem;
+    }
+    .about-text {
         padding-right: 4rem;
     }
     .text {
@@ -1142,169 +1205,70 @@
     .app-download-img {
         width: 45%;
     }
+    .app-phone-number-h1 {
+        padding-top: 3rem;
+    }
+    .app-phone-number-h3 {
+        padding-top: 0rem;
+    }
     .membership {
-        padding: 2rem 1rem;
+        padding: 2rem 2rem;
     }
     .cover {
         padding: 2rem 2rem;
     }
-    .footer-base {
-        padding: 4rem 1rem;
-    }
-}
-@media(max-width:600px) {
-    .cover {
-        flex-direction: column-reverse;
-        padding: inherit;
-    }
-    .ul {
-        flex-direction: column-reverse;
-        padding-bottom: 2rem;
-    }
-    .footer-ul {
-        display: none;
-    }
-    
-    .footer-contact-us {
-        width: 100%;
-    }
-    .link-section {
-        padding-top: 2rem;
-        position: absolute;
-    }
-    .cover ul {
-        padding-bottom: 1rem;
-    }
-    .footer-base {
+    .footer-main {
         padding: 4rem 2rem;
     }
-    .membership-main-img{
-        display: none;
-    }
-    .membership-doctor-img-responsive {
-        display: block;
-        width: 400px;
-        padding: 4rem 2rem 0rem 2rem;
-    }
-    .app-download-link {
-        display: revert;
-        padding: 0rem 7rem;
-    }
-    .app-download-mobile-img {
-        width: 100%;
-    }
-    .membership {
-        padding: 0rem 0rem;
-    }
-    .membership-text {
-        width: 100%;
-        padding-top: 2rem;
-    }
-    .membership-form-send {
-        padding: 0rem 1rem 1rem 1rem;
-    }
-    .app-download-img{
-        display: none;
-    }
-    .app-download-mobile-img img {
-        width: 50%;
-        margin: 0 auto;
-        display: flex;
-        padding-top: 2rem;
-        border-radius: 60px 60px 0px 0px;
-    }
+}
+
+@media(max-width:1100px) {
     
-    .app-phone-number {
-        width: 422px;
-        padding: 0rem 0rem
-    }
-    .app-phone-number-h3 {
-        padding: 1rem 2rem 0rem 2rem;
-    }
-    .app-phone-number-send {
-        padding: 0rem 2rem 1rem 2rem;
-    }
-    
-    .h1{
-        padding: 1rem 2rem 1rem 2rem;
-    }
-    .app-download-link a {
-        margin-bottom: 10px;
-    }
-    .possibilities {
-        padding: 1rem!important;
-        direction: rtl; 
-    }
-    .possibilities-text {
-        padding-right: 0rem;
-        padding-top: 2rem;
-    }
-    .possibilities-base {
-        display: block;
-        padding-top: 2rem;
-    }
-    .app-img{
-        padding-left: 66px!important;
-    }
-    .header-items{
-        display: none;
-    }
-    .header-main-logo{
-        margin-right: -3.2rem;
-    }
-      .app-text {
-        text-align: center;
-        direction: rtl; 
-        padding-inline-start: 0rem; 
-        padding-block-start: 0rem;
-      }
-      .app-button-text {
-        padding-inline-start: 0rem;
-        padding-block-start: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        row-gap: 10px;
+    .footer-main {
+        padding:4rem 2rem;  
     }
     .about {
-        display: inline-flex;
-        padding-top: 0rem;
         padding-right: 1rem;
     }
-    .p1 {
-        width: 100%;
-        line-height: 30px;
-    }
-    .text {
-        direction: rtl;
-        padding-top: 5rem;
+    .about-images {
         padding-right: 0rem;
     }
-    .imgResponsive{
-        display: block;
-        padding: 15%;
+    .about-text {
+        padding-right: 3rem;
     }
-    .about-img{
-        display: none;
+    .app-img {
+        padding-left: 5rem;
     }
-    .app-button-style-without-color {
-        background-color: white;
-        border-color: #c2daff;
-        border-style: double;
-        color: #1894FF;
-        padding: 13px 40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 18px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 10px;
+    .possibilities {
+        padding: 12rem 2rem;
     }
+    .possibilities-text {
+        padding-right: 5rem; 
+    }
+    .app-download-img img{
+        width: 55%;
+    }
+    .app-phone-number {
+        width: 58%;
+        padding: 6rem 2rem;
+        
+    }
+    .membership {
+        padding: 2rem 2rem;
+    }
+    .cover {
+        padding: 2rem 5rem;
+    }
+    
+    
 }
-    @media(min-width:1075px) {
 
+    @media(min-width:1075px) {
+        
+        .header-main {
+            padding-inline-start: 2rem;
+            padding-inline-end: 2rem;
+        }
         .membership-main-img{
             display: block;
         }
@@ -1317,6 +1281,7 @@
         .app-download-img {
             display: flex;
         }
+        
         .about-img{
             display: block;
         }
@@ -1329,6 +1294,7 @@
         .burger{
             display: none;
         }
+        
     }
     .burger div {
         width: 25px;
@@ -1337,85 +1303,576 @@
         margin: 5px;
         transition: all 0.3s ease;
     }
-    @media(min-width:600px) and (max-width:1000px) {
+    @media(min-width:1000px) and (max-width:1074px) {
     
-        .header-main {
-            padding-inline-start: 2rem;
-            padding-inline-end: 2rem;
-        }
-        .header-li {
-            list-style: none;
-            display: contents;;
-        }
-        .app-text {
-            padding-inline-start: 4rem;
-        }
-        .app-button-text {
-            padding-inline-start: 4rem;
-        }
-        .app-img {
-            padding-left: 3rem;
-        }
-        .about {
-            padding-right: 4rem;
-        }
-        .text {
-            padding-right: 4rem;
-        }
-        .possibilities {
-            padding: 5rem 2rem; 
-        }
-        .possibilities-container {
-            height: fit-content;
-        }
-        .possibilities-text {
-            padding-right: 3rem;
-        }
-        .app-phone-number {
-            padding: 2rem 0rem;
-        }
-        .app-download-img {
-            width: 45%;
-        }
-        .membership {
-            padding: 2rem 1rem;
-        }
-        .cover {
-            padding: 2rem 2rem;
-        }
-        .footer-main {
-            padding: 4rem 1rem;
-        }
+        .closebtn {
+        float: left;
+        padding-left: 6rem;
+      }
+      .header-main {
+        padding-inline-start: 2rem;
+        padding-inline-end: 2rem;
+    }
+    .app {
+        display : grid ;
+    }
+    .app-img {
+        margin: auto;
+        float: none;
+        padding-left: 0rem;
+    }
+    .app-text {
+        margin: auto;
+        padding-top: 5rem;
+        padding-inline-start: 0rem;
+    }
+    .app-button {
+        padding-inline-start: 0rem;
+        margin: auto;
+    }
+    .about {
+        display: inline-flex;
+        padding: 0rem;
+    }
+    .about-img{
+        display: none;
+    }   
+    .imgResponsive {
+        margin: auto;
+        display: block;
+        padding-block-start: 10rem;
+        padding-block-end: 5rem;
+    }
+    .about-text {
+        padding: 0rem;
+        margin: auto;
+
+    }
+    .possibilities {
+        padding: 12rem 2rem ;
+    }
+    .possibilities-main {
+        display: block;
+    }
+    .possibilities-main-container {
+        display: -webkit-box;
+        padding-block-end: 4rem;
+    }
+    .possibilities-img {
+        width: 85px;
+    }
+    .possibilities-text {
+        margin: auto;
+    }
+    .img {
+        width: 70px;
+    }
+    .app-download {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .app-phone-number {
+        width: 72%;
+        margin: auto;
+        direction: rtl;
+    }
+    .app-download-img {
+        width: 100%;
+        margin: auto;
+    }
+    .membership {
+        padding: 12rem 4rem;
+    }
+    .membership-main {
+        display: block;
+        margin: auto;
+    }
+    .membership-main-img {
+        margin: auto;
+    }
+    .membership-text {
+        width:auto;
+        padding: 5rem;
+    }
+    .membership-doctor-img {
+        width: none;
+    }
+    .footer-brand {
+        width: 7%;
     }
 
-      @media(min-width:800px) and (max-width:1490px) {
-        .center-item {
-            display: inline-block;
-        }
-        .display-flex {
-            display: none;
-        }
-        .display-flex1 {
-            display: none;
-        }
-        .width-52 {
-            width: 104%;
-        }
-        .header-ul {
-            display: flex;
-        }
-        .header-button {
-            padding: 13px 27px;
-        }
-        .padding {
-            PADDING: 7rem 0rem;
-            margin: auto;
-        }
-        .padding-darmanito {
-            padding-right: 3rem;
-            padding-top: 5rem;
-        }
+}
+@media(min-width:760px) and (max-width:1000px) {
+    
+    .closebtn {
+        float: left;
+        padding-left: 6rem;
     }
+    .header-main {
+        padding-inline-start: 2rem;
+        padding-inline-end: 2rem;
+    }
+    .app {
+        display : grid ;
+    }
+    .app-img {
+        margin: auto;
+        float: none;
+        padding-left: 0rem;
+    }
+    .app-text {
+        margin: auto;
+        padding-top: 5rem;
+        padding-inline-start: 0rem;
+    }
+    .app-button {
+        padding-inline-start: 0rem;
+        margin: auto;
+    }
+    .about {
+        display: inline-flex;
+        padding: 0rem;
+    }
+    .about-img{
+        display: none;
+    }   
+    .imgResponsive {
+        margin: auto;
+        display: block;
+        padding-block-start: 10rem;
+        padding-block-end: 5rem;
+    }
+    .about-section {
+        padding-right: 3rem;
+    }
+    .about-text {
+        padding: 0rem;
+        margin: auto;
+
+    }
+    .about-images {
+        display: none;
+    }
+    .possibilities {
+        padding: 12rem 2rem ;
+    }
+    .possibilities-main {
+        display: block;
+    }
+    .possibilities-main-container {
+        display: -webkit-box;
+        padding-block-end: 4rem;
+    }
+    .possibilities-img {
+        width: 85px;
+    }
+    .possibilities-text {
+        margin: auto;
+    }
+    .img {
+        width: 70px;
+    }
+    .app-download {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .app-phone-number {
+        width: 79%;
+        margin: auto;
+        direction: rtl;
+    }
+    .app-download-img {
+        width: 100%;
+        margin: auto;
+    }
+    .membership {
+        padding: 12rem 4rem;
+    }
+    .membership-main {
+        display: block;
+        margin: auto;
+    }
+    .membership-main-img {
+        margin: auto;
+    }
+    .membership-text {
+        width:auto;
+        padding: 2rem;
+    }
+    .membership-doctor-img {
+        width: none;
+    }
+    .cover {
+        padding: 2rem 1rem;
+    }
+    .footer-brand {
+        width: 7%;
+    }
+
+}
+@media(min-width:650px) and (max-width:760px) {
+    
+    .closebtn {
+        float: left;
+        padding-left: 6rem;
+    }
+    .header-main {
+        padding-inline-start: 2rem;
+        padding-inline-end: 2rem;
+    }
+    .app {
+        display : grid ;
+    }
+    .app-img {
+        margin: auto;
+        float: none;
+        padding-left: 0rem;
+    }
+    .app-text {
+        margin: auto;
+        padding-top: 5rem;
+        padding-inline-start: 0rem;
+    }
+    .app-button {
+        padding-inline-start: 0rem;
+        margin: auto;
+    }
+    .about {
+        display: inline-flex;
+        padding: 0rem;
+    }
+    .about-img{
+        display: none;
+    }   
+    .imgResponsive {
+        margin: auto;
+        display: block;
+        padding-block-start: 10rem;
+        padding-block-end: 5rem;
+    }
+    .about-section {
+        padding-right: 3rem;
+    }
+    .about-text {
+        padding: 0rem;
+        margin: auto;
+
+    }
+    .about-images {
+        display: none;
+    }
+    .possibilities {
+        padding: 12rem 2rem ;
+    }
+    .possibilities-main {
+        display: block;
+        overflow: hidden;
+    }
+    .possibilities-main-container {
+        display: -webkit-box;
+        padding-block-end: 4rem;
+    }
+    .possibilities-img {
+        width: 85px;
+    }
+    .possibilities-text {
+        margin: auto;
+        padding-right: 1rem;
+    }
+    .img {
+        width: 70px;
+    }
+    .app-download {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .app-phone-number {
+        width: 100%;
+        margin: auto;
+        direction: rtl;
+    }
+    .app-download-img {
+        width: 100%;
+        margin: auto;
+    }
+    .membership {
+        padding: 12rem 2rem;
+    }
+    .membership-main {
+        display: block;
+        margin: auto;
+    }
+    .membership-main-img {
+        margin: auto;
+    }
+    .membership-text {
+        width:auto;
+        padding: 2rem;
+    }
+    .membership-doctor-img {
+        width: none;
+        width: 350px;
+        padding: 4rem 3rem 0rem 0rem;
+    }
+    .cover {
+        padding: 2rem 1rem;
+    }
+    .footer-brand {
+        width: 7%;
+    }
+    .android {
+        display: none;
+    }
+
+}
+@media(min-width:500px) and (max-width:650px) {
+    
+    .closebtn {
+        float: left;
+        padding-left: 6rem;
+    }
+    .header-main {
+        padding-inline-start: 2rem;
+        padding-inline-end: 2rem;
+    }
+    .app {
+        display : grid ;
+    }
+    .app-img {
+        margin: auto;
+        float: none;
+        padding-left: 0rem;
+    }
+    .app-text {
+        margin: auto;
+        padding-top: 5rem;
+        padding-inline-start: 0rem;
+    }
+    .app-button {
+        padding-inline-start: 0rem;
+        margin: auto;
+    }
+    .about {
+        display: inline-flex;
+        padding: 0rem;
+    }
+    .about-img{
+        display: none;
+    }   
+    .imgResponsive {
+        margin: auto;
+        display: block;
+        padding-block-start: 10rem;
+        padding-block-end: 5rem;
+    }
+    .about-section {
+        padding-right: 3rem;
+    }
+    .about-text {
+        padding: 0rem;
+        margin: auto;
+
+    }
+    .about-images {
+        display: none;
+    }
+    .possibilities {
+        padding: 12rem 2rem ;
+    }
+    .possibilities-main {
+        display: block;
+        overflow: hidden;
+    }
+    .possibilities-main-container {
+        display: -webkit-box;
+        padding-block-end: 4rem;
+    }
+    .possibilities-img {
+        width: 85px;
+    }
+    .possibilities-text {
+        margin: auto;
+        padding-right: 1rem;
+    }
+    .img {
+        width: 70px;
+    }
+    .app-download {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .app-phone-number {
+        width: 100%;
+        margin: auto;
+        direction: rtl;
+    }
+    .app-download-img {
+        width: 100%;
+        margin: auto;
+    }
+    .membership {
+        padding: 12rem 1rem;
+    }
+    .membership-main {
+        display: block;
+        margin: auto;
+    }
+    .membership-main-img {
+        margin: auto;
+    }
+    .membership-text {
+        width:auto;
+        padding-block-start: 2rem;
+        padding-block-end: 2rem;
+    }
+    .membership-doctor-img {
+        width: none;
+        width: 300px;
+        padding: 4rem 4rem 0rem 0rem;
+    }
+    .cover {
+        padding: 2rem 1rem;
+        flex-flow: column-reverse;
+    }
+    .footer-brand {
+        width: 13%;
+    }
+    .app-download-link > a.android {
+        display: none;
+    }
+    .app-download-link {
+        align-self: center;
+    }
+
+}
+@media(min-width:400px) and (max-width:500px) {
+    
+    .closebtn {
+        float: left;
+        padding-left: 6rem;
+    }
+    .header-main {
+        padding-inline-start: 2rem;
+        padding-inline-end: 2rem;
+    }
+    .app {
+        display : grid ;
+    }
+    .app-img {
+        margin: auto;
+        float: none;
+        padding-left: 0rem;
+    }
+    .app-text {
+        margin: auto;
+        padding-top: 5rem;
+        padding-inline-start: 0rem;
+    }
+    .app-button {
+        padding-inline-start: 0rem;
+        margin: auto;
+    }
+    .about {
+        display: inline-flex;
+        padding: 0rem;
+    }
+    .about-img{
+        display: none;
+    }   
+    .imgResponsive {
+        margin: auto;
+        display: block;
+        padding-block-start: 10rem;
+        padding-block-end: 5rem;
+    }
+    .about-section {
+        padding-right: 3rem;
+    }
+    .about-text {
+        padding: 0rem;
+        margin: auto;
+
+    }
+    .about-images {
+        display: none;
+    }
+    .possibilities {
+        padding: 12rem 2rem ;
+    }
+    .possibilities-main {
+        display: block;
+        overflow: hidden;
+    }
+    .possibilities-main-container {
+        display: -webkit-box;
+        padding-block-end: 4rem;
+    }
+    .possibilities-img {
+        width: 85px;
+    }
+    .possibilities-text {
+        margin: auto;
+        padding-right: 1rem;
+    }
+    .img {
+        width: 70px;
+    }
+    .app-download {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .app-phone-number {
+        width: 100%;
+        margin: auto;
+        direction: rtl;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    
+    }
+    .app-download-img {
+        width: 100%;
+        margin: auto;
+    }
+    .membership {
+        padding: 12rem 1rem;
+    }
+    .membership-main {
+        display: block;
+        margin: auto;
+    }
+    .membership-main-img {
+        margin: auto;
+    }
+    .membership-text {
+        width:auto;
+        padding-block-start: 2rem;
+        padding-block-end: 2rem;
+    }
+    .membership-doctor-img {
+        width: none;
+        width: 300px;
+        padding: 4rem 4rem 0rem 0rem;
+    }
+    .cover {
+        padding: 2rem 0rem;
+        flex-flow: column-reverse;
+    }
+    .footer-brand {
+        width: 13%;
+    }
+    .app-download-link > a.android {
+        display: none;
+    }
+    .app-download-link {
+        align-self: center;
+    }
+    .membership-form-send {
+        padding: 0rem 0rem;
+    }
+
+}
+
+      
 
     @media(min-width:500px) and (max-width:800px) {
         .center-item {
@@ -1551,26 +2008,21 @@
         .header-items{
             display: none;
         }
-          .app-text {
-            text-align: center;
-            direction: rtl; 
-            padding-inline-start: 0rem; 
-            padding-block-start: 0rem;
-          }
-          .app-button-text {
-            padding-inline-start: 0rem;
-            padding-block-start: 2rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            row-gap: 10px;
-        }
-        .about {
-            display: inline-flex;
-            padding-top: 0rem;
-            padding-right: 1rem;
-        }
+        //   .app-text {
+        //     text-align: center;
+        //     direction: rtl; 
+        //     padding-inline-start: 0rem; 
+        //     padding-block-start: 0rem;
+        //   }
+        //   .app-button-text {
+        //     padding-inline-start: 0rem;
+        //     padding-block-start: 2rem;
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        //     width: 100%;
+        //     row-gap: 10px;
+        // }
         .p1 {
             width: 100%;
             line-height: 30px;
@@ -1580,10 +2032,7 @@
             padding-top: 5rem;
             padding-right: 0rem;
         }
-        .imgResponsive{
-            display: block;
-            padding: 15%;
-        }
+        
     }
     .dropDown {
         display: none;

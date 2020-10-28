@@ -1,0 +1,2406 @@
+@font-face {
+  src: url("../fonts/Yekan.ttf");
+  font-family: Yekan;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  src: url("../fonts/Yekan.ttf");
+  font-family: Yekan;
+}
+
+/* ------------------- General --------------------- */
+.heigh-auto {
+  height: auto;
+}
+
+.border-none {
+  border: none;
+}
+
+.box-container {
+  -webkit-box-shadow: 0px 0px 8px #a3daf1;
+          box-shadow: 0px 0px 8px #a3daf1;
+  border-radius: 2rem;
+}
+
+.padding-block-end-1rem {
+  -webkit-padding-after: 1rem;
+          padding-block-end: 1rem;
+}
+
+.width-52 {
+  width: 52%;
+}
+
+.padding {
+  PADDING: 12rem 7rem;
+}
+
+.padding1 {
+  padding-top: 8rem;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.padding-left {
+  padding-left: 23.5rem;
+}
+
+.padding-left1 {
+  padding-left: 15rem;
+  padding-right: 10rem;
+}
+
+.padding-left2 {
+  padding-left: 2rem;
+  padding-right: 23rem;
+  padding-top: 0rem;
+}
+
+.padding2 {
+  padding-left: 22rem;
+  padding-bottom: 2rem;
+}
+
+.padding3 {
+  padding-left: 25rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+
+.padding4 {
+  padding-right: 11rem;
+  padding-left: 10rem;
+  padding-bottom: 2rem;
+}
+
+.font-size1 {
+  font-size: 11px;
+}
+
+.font-size-15px {
+  font-size: 15px;
+}
+
+.card-body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: pre-wrap;
+  line-height: 0rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  white-space: pre-wrap;
+  line-height: 0rem;
+  justify-content: center;
+}
+
+.Drug-name {
+  position: absolute;
+  text-align-last: right;
+  font-size: larger;
+  position: absolute;
+  text-align-last: right;
+  font-size: larger;
+}
+
+.border-radios-2rem {
+  border-radius: 2rem;
+}
+
+.flex-auto {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 9rem;
+}
+
+.width-42 {
+  width: 42%;
+  line-height: 2rem;
+}
+
+.display-flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: flex-end;
+}
+
+.heigh-5 {
+  height: 5rem;
+  padding-top: 1rem;
+}
+
+.padding-0 {
+  padding: 0px;
+}
+
+.questions2 {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-padding-after: 5rem;
+          padding-block-end: 5rem;
+}
+
+.card-activated {
+  width: 10rem;
+  height: 11rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 3rem;
+  margin: 0rem 4rem;
+}
+
+.card-disable {
+  width: 10rem;
+  height: 11rem;
+  border-radius: 25px;
+  padding: 1rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0rem 4rem;
+}
+
+.card-disable1 {
+  width: 10rem;
+  height: 11rem;
+  border-radius: 25px;
+  padding: 1rem 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0rem 4rem;
+}
+
+.margin-top {
+  margin-top: 4px;
+}
+
+.padding-17 {
+  -webkit-padding-before: 17rem;
+          padding-block-start: 17rem;
+}
+
+/* ------------------- Darmanito Map --------------------- */
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* ------------------- Darmanito Header --------------------- */
+h1 {
+  color: #0061b6;
+}
+
+.header {
+  font-size: x-large;
+}
+
+.header-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  direction: rtl;
+  -webkit-padding-before: 1.5rem;
+          padding-block-start: 1.5rem;
+  -webkit-padding-start: 6rem;
+          padding-inline-start: 6rem;
+  -webkit-padding-after: 1.5rem;
+          padding-block-end: 1.5rem;
+  -webkit-padding-end: 1rem;
+          padding-inline-end: 1rem;
+}
+
+.header-items {
+  margin: auto;
+}
+
+.header-items-button {
+  background-color: #E6F3FF;
+  border: none;
+  color: #1894FF;
+  padding: 13px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.header-li {
+  list-style: none;
+  display: inline-block;
+  padding: 0rem 2rem;
+}
+
+.home-page-header-ul {
+  margin-top: 0rem;
+}
+
+.header-ul {
+  margin-top: 0.85rem;
+}
+
+.header-li-a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-right: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #0061b6;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #0061b6;
+}
+
+/* ------------------- Darmanito Burger --------------------- */
+.burger {
+  display: block;
+  margin-right: auto;
+}
+
+.burger-main {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.burger-header {
+  direction: rtl;
+  -webkit-padding-before: -2rem;
+          padding-block-start: -2rem;
+  -webkit-padding-start: 5rem;
+          padding-inline-start: 5rem;
+  -webkit-padding-after: 5rem;
+          padding-block-end: 5rem;
+}
+
+.burger-header-logo {
+  margin-right: -3.2rem;
+}
+
+.burger-nav {
+  padding-right: 3rem;
+}
+
+.burger-nav-title {
+  color: #0061b6;
+  border-right: 4px solid #05FEA3;
+  padding-right: 1rem;
+}
+
+.burger-nav-button {
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+
+.burger-nav-button-style {
+  background-color: #E6F3FF;
+  border: none;
+  color: #1894FF;
+  padding: 13px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.burger-nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #1f62e0;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.burger-nav a:hover {
+  color: #4e5fff;
+}
+
+.burger-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.color-black {
+  color: black;
+}
+
+@media screen and (max-height: 450px) {
+  .burger-nav {
+    padding-top: 15px;
+  }
+  .burger-nav a {
+    font-size: 18px;
+  }
+}
+
+/* ------------------- Darmanito Application  --------------------- */
+.app {
+  font-size: x-large;
+  -webkit-padding-before: 7rem;
+          padding-block-start: 7rem;
+}
+
+.human {
+  float: right;
+  padding-left: 9px;
+}
+
+.app-img {
+  float: left;
+  padding-left: 8rem;
+}
+
+.app-text {
+  direction: rtl;
+  -webkit-padding-start: 7rem;
+          padding-inline-start: 7rem;
+  -webkit-padding-before: 8rem;
+          padding-block-start: 8rem;
+}
+
+.app-text-p {
+  font-size: 1.2rem;
+  padding-right: 0.30rem;
+}
+
+.app-button {
+  direction: rtl;
+  -webkit-padding-start: 7rem;
+          padding-inline-start: 7rem;
+  -webkit-padding-before: 2rem;
+          padding-block-start: 2rem;
+}
+
+.app-button-style {
+  background-color: #1894FF;
+  border: none;
+  color: white;
+  padding: 13px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.app-button-style-without-color, .without-color {
+  background-color: white;
+  border-color: #c2daff;
+  border-style: double;
+  color: #1894FF;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* ------------------- Darmanito About --------------------- */
+.padding-darmanito {
+  padding-right: 8rem;
+  padding-top: 5rem;
+}
+
+.max-inline-size {
+  max-inline-size: -webkit-fit-content;
+  max-inline-size: -moz-fit-content;
+  max-inline-size: fit-content;
+}
+
+.padding-top {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.text-align-center-margin {
+  text-align: center;
+  margin: 0rem 5rem;
+}
+
+.text-align-right-margin-map {
+  text-align: right;
+  margin: 0rem 5rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.color-white {
+  color: white;
+}
+
+.margin-betwin1 {
+  -webkit-margin-end: 15rem;
+          margin-inline-end: 15rem;
+}
+
+.padding5 {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.about {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-top: 10rem;
+  padding-right: 15rem;
+  margin: auto;
+}
+
+.about-section {
+  direction: rtl;
+}
+
+.about-text {
+  padding-right: 7rem;
+}
+
+.about-images {
+  padding-right: 4.5rem;
+}
+
+.about-text-title {
+  border-right: 4px solid #05FEA3;
+  border-radius: 2px;
+  color: #0061b6;
+  direction: rtl;
+  padding-right: 1rem;
+}
+
+.about-text-p {
+  width: 80%;
+  line-height: 30px;
+}
+
+.about-items {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-top: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ------------------- Darmanito Possibilities --------------------- */
+.possibilities {
+  padding: 12rem 10rem;
+  direction: rtl;
+}
+
+.possibilities-title {
+  color: #0061b6;
+  border-right: 4px solid #05FEA3;
+  padding-right: 0.8rem;
+}
+
+.possibilities-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2rem;
+}
+
+.possibilities-main-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.possibilities-main-items {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.possibilities-main-items-button {
+  width: 100%;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 8px #a3daf1;
+          box-shadow: 0px 0px 8px #a3daf1;
+  border: none;
+  padding: 2rem 3rem;
+}
+
+.actived {
+  width: 100%;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 8px #a3daf1;
+          box-shadow: 0px 0px 8px #a3daf1;
+  border: none;
+  padding: 2rem 3rem;
+}
+
+.disable {
+  -webkit-box-shadow: 0px 0px 8px gray;
+          box-shadow: 0px 0px 8px gray;
+  color: gray;
+  opacity: 0.5;
+}
+
+.possibilities-main-items-button:focus {
+  outline: 0;
+}
+
+.possibilities-main-items-button h3 {
+  padding-top: 0.5rem;
+}
+
+.img {
+  width: 60px;
+}
+
+.possibilities-text {
+  padding-right: 7rem;
+}
+
+.text-ex {
+  width: 72%;
+  line-height: 40px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.steps-img {
+  width: 5%;
+  padding: 0.5rem;
+  background-color: #c7e8f7;
+  border-radius: 30px;
+}
+
+.steps-text {
+  padding-right: 1rem;
+}
+
+.steps-ex {
+  width: 95.5%;
+  margin: 0 auto;
+  border-right: 1px solid gray;
+  padding: 1rem 3rem;
+}
+
+.steps-img-check {
+  width: 5%;
+  padding: 0.5rem;
+  background-color: #05FEA3;
+  border-radius: 30px;
+}
+
+.steps-ex-check {
+  width: 95.5%;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+}
+
+/* ------------------- Darmanito Application Download --------------------- */
+.h1 {
+  color: white;
+}
+
+.app-download {
+  background-color: #1091ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.app-download-img {
+  width: 50%;
+}
+
+.app-download-img img {
+  width: 40%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2rem;
+  border-radius: 45px 45px 0px 0px;
+}
+
+.app-phone-number {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  direction: rtl;
+  padding: 6rem 5rem;
+  color: white;
+}
+
+.app-phone-number-h3 {
+  padding-top: 1.5rem;
+}
+
+.app-phone-number-send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+.app-phone-number-send input {
+  width: 82%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.app-phone-number-send input:focus {
+  outline: 0;
+}
+
+.app-phone-number-send button {
+  border: none;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.app-phone-number-send button h4 {
+  background-color: #1091ff;
+  color: white;
+  padding: 0.7rem 2rem;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.app-phone-number-send button:focus {
+  outline: 0;
+}
+
+.app-phone-number-h1 {
+  padding-top: 1rem;
+}
+
+.app-download-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.app-download-link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2162b7;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: 9px;
+}
+
+.android p {
+  padding-right: 1rem;
+}
+
+.bazzar p,
+.bazzar img {
+  padding-right: 0.5rem;
+}
+
+.sibapp p {
+  font-size: 12px;
+}
+
+.sibapp-section {
+  padding-right: 0.7rem;
+}
+
+#error {
+  padding: 1rem;
+  color: red;
+  font-size: 15px;
+  display: none;
+}
+
+#error2 {
+  padding: 1rem;
+  color: red;
+  font-size: 15px;
+  display: none;
+}
+
+/* ------------------- Darmanito Membership --------------------- */
+.membership {
+  padding: 2rem 10rem;
+}
+
+.membership-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 10px #7cc6e6;
+          box-shadow: 0px 0px 10px #7cc6e6;
+  border-radius: 12px;
+}
+
+.membership-main-img {
+  width: 50%;
+}
+
+.membership-text {
+  width: 65%;
+  padding-top: 2rem;
+}
+
+.membership-doctor-img {
+  width: 400px;
+  padding: 4rem 2rem 0rem 2rem;
+}
+
+.membership-text-title {
+  direction: rtl;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 2px solid #05FEA3;
+  width: 85%;
+  margin: 0 auto;
+  padding-right: 0.8rem;
+  border-radius: 3px;
+  color: #0061b6;
+  text-underline-position: under;
+}
+
+.membership-text-p {
+  direction: rtl;
+  padding: 3rem;
+}
+
+.membership-form-send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0rem 2rem;
+  direction: rtl;
+}
+
+.membership-form-send input {
+  width: 82%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #e0e0e0;
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.membership-form-send input:focus {
+  outline: 0;
+}
+
+.membership-form-send button {
+  border: none;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #e0e0e0;
+  width: 45%;
+}
+
+.membership-form-send button p {
+  background-color: #1091ff;
+  color: white;
+  padding: 0.7rem 2rem;
+  font-size: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.membership-form-send button:focus {
+  outline: 0;
+}
+
+.membership-text-title-a {
+  text-decoration: none;
+  color: #0061b6;
+}
+
+/* ------- Darmanito membership (Index1) ------- */
+.col-6-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  direction: rtl;
+  margin: auto;
+  padding: 0rem 2rem;
+}
+
+.col-6-send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2rem;
+}
+
+.col-6-send input {
+  width: 82%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.col-6-send input:focus {
+  outline: 0;
+}
+
+.col-6-send button {
+  border: none;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.col-6-send button h4 {
+  background-color: #1091ff;
+  color: white;
+  padding: 0.7rem 2rem;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.col-6-send button:focus {
+  outline: 0;
+}
+
+/* ------------------- Darmanito Questions --------------------- */
+.question-actived {
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 8px #a3daf1;
+          box-shadow: 0px 0px 8px #a3daf1;
+  border: none;
+  padding: 2rem 3rem;
+}
+
+.coming-soon {
+  color: white;
+  background-color: #0d6ec2;
+  padding: 0.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  border-radius: 15px;
+}
+
+.card-img {
+  padding-top: 1rem;
+}
+
+/* ------------------- Darmanito Footer --------------------- */
+.cover {
+  background-color: #1091ff;
+  padding: 2rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover-s {
+  background-color: #1091ff;
+  padding: 2rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover ul {
+  list-style: none;
+}
+
+.cover-s ul {
+  list-style: none;
+}
+
+.ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0rem 1rem;
+  color: white;
+}
+
+.ul-li {
+  padding-right: 1.5rem;
+}
+
+.cover-contact li p {
+  background: #0000b4;
+  color: white;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.footer-main {
+  padding: 4rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-main-s {
+  padding: 4rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-main-link {
+  text-decoration: none;
+  color: #0061b6;
+}
+
+.footer-main-link-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-ul {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-ul ul {
+  list-style-type: none;
+  text-align: end;
+}
+
+.footer-ul ul li {
+  padding-top: 1rem;
+}
+
+.footer-ul ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-li-a-style {
+  border-right: 4px solid #05FEA3;
+  padding-right: 0.8rem;
+}
+
+.footer-li-a-color {
+  color: #0061b6;
+}
+
+.link-actived {
+  color: #0061b6;
+  border-right: 2px solid #05FEA3;
+  padding-right: 0.5rem;
+}
+
+.link-disabled {
+  color: gray;
+}
+
+.footer-contact-us {
+  width: 30%;
+}
+
+.footer-contact-us h4 {
+  direction: rtl;
+  padding-top: 1rem;
+}
+
+.footer-contact-us p {
+  direction: rtl;
+  padding-top: 1rem;
+}
+
+.footer-contact-us .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-contact-us .section p {
+  direction: rtl;
+  padding-right: 0.5rem;
+}
+
+.first {
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.second {
+  padding-top: 0.7rem;
+}
+
+.link-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.link-section a {
+  padding: 0.5rem;
+  color: gray;
+}
+
+.link-footer-actived {
+  color: #0061b6;
+}
+
+.link-section a i {
+  font-size: 25px;
+}
+
+.footer-brand {
+  width: 15%;
+}
+
+.footer-link-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.footer-link-download a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: 9px;
+}
+
+.footer-sibapp {
+  direction: rtl;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.footer-bazzar {
+  direction: rtl;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-bazzar p,
+.footer-bazzar img {
+  padding-right: 0.5rem;
+}
+
+.footer-sibapp p {
+  font-size: 12px;
+}
+
+.footer-sibapp-section {
+  padding-right: 0.7rem;
+}
+
+.footer-h3 {
+  font-size: 1.5rem;
+}
+
+/* ------------------- Responsive --------------------- */
+@media (min-width: 1400px) and (max-width: 1512px) {
+  .center-item {
+    display: inline-block;
+  }
+  .display-flex {
+    display: none;
+  }
+  .display-flex1 {
+    display: none;
+  }
+  .width-52 {
+    width: 104%;
+  }
+  .header-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-button {
+    padding: 13px 27px;
+  }
+  .padding {
+    PADDING: 7rem 0rem;
+    margin: auto;
+  }
+  .padding-darmanito {
+    padding-right: 3rem;
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 1385px) and (max-width: 1500px) {
+  .app-text {
+    -webkit-padding-start: 8rem;
+            padding-inline-start: 8rem;
+  }
+  .app-button-text {
+    -webkit-padding-start: 8rem;
+            padding-inline-start: 8rem;
+  }
+  .app-img {
+    padding-left: 9rem;
+  }
+  .about {
+    padding-right: 5rem;
+  }
+  .text {
+    padding-right: 6rem;
+  }
+  .possibilities-container {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .footer-main {
+    padding: 4rem 3rem;
+  }
+  .app-text {
+    -webkit-padding-start: 5rem;
+            padding-inline-start: 5rem;
+  }
+  .app-button {
+    -webkit-padding-start: 5rem;
+            padding-inline-start: 5rem;
+  }
+  .cover {
+    padding: 2rem 4rem;
+  }
+  .app-img {
+    padding-left: 6rem;
+  }
+  .app-phone-number {
+    padding: 4rem 3rem;
+  }
+  .app-phone-number-h1 {
+    padding-top: 2.5rem;
+  }
+  .app-phone-number-h3 {
+    padding-top: 1rem;
+  }
+  .membership {
+    padding: 2rem 6rem;
+  }
+  .about {
+    padding-right: 5rem;
+  }
+  .text {
+    padding-right: 4rem;
+  }
+  .possibilities {
+    padding: 5rem 5rem;
+  }
+  .possibilities-container {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .footer-base {
+    padding: 4rem 3rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1250px) {
+  .app-phone-number {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .header-li {
+    list-style: none;
+  }
+  .app-text {
+    -webkit-padding-start: 5rem;
+            padding-inline-start: 5rem;
+  }
+  .app-button {
+    -webkit-padding-start: 5rem;
+            padding-inline-start: 5rem;
+  }
+  .about {
+    padding-right: 1rem;
+  }
+  .about-images {
+    padding-right: 1rem;
+  }
+  .about-text {
+    padding-right: 4rem;
+  }
+  .text {
+    padding-right: 4rem;
+  }
+  .possibilities {
+    padding: 5rem 2rem;
+  }
+  .possibilities-container {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .possibilities-text {
+    padding-right: 3rem;
+  }
+  .app-phone-number {
+    padding: 0rem 0rem;
+  }
+  .app-download-img {
+    width: 45%;
+  }
+  .app-phone-number-h1 {
+    padding-top: 3rem;
+  }
+  .app-phone-number-h3 {
+    padding-top: 0rem;
+  }
+  .membership {
+    padding: 2rem 2rem;
+  }
+  .cover {
+    padding: 2rem 2rem;
+  }
+  .footer-main {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer-main {
+    padding: 4rem 2rem;
+  }
+  .about {
+    padding-right: 1rem;
+  }
+  .about-images {
+    padding-right: 0rem;
+  }
+  .about-text {
+    padding-right: 3rem;
+  }
+  .app-img {
+    padding-left: 5rem;
+  }
+  .possibilities {
+    padding: 12rem 2rem;
+  }
+  .possibilities-text {
+    padding-right: 5rem;
+  }
+  .app-download-img img {
+    width: 55%;
+  }
+  .app-phone-number {
+    width: 58%;
+    padding: 6rem 2rem;
+  }
+  .membership {
+    padding: 2rem 2rem;
+  }
+  .cover {
+    padding: 2rem 5rem;
+  }
+}
+
+@media (min-width: 1075px) {
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .membership-main-img {
+    display: block;
+  }
+  .membership-doctor-img-responsive {
+    display: none;
+  }
+  .app-download-mobile-img {
+    display: none;
+  }
+  .app-download-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .about-img {
+    display: block;
+  }
+  .imgResponsive {
+    display: none;
+  }
+  .burger-nav {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: #1894FF;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 1000px) and (max-width: 1074px) {
+  .closebtn {
+    float: left;
+    padding-left: 6rem;
+  }
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .app {
+    display: -ms-grid;
+    display: grid;
+  }
+  .app-img {
+    margin: auto;
+    float: none;
+    padding-left: 0rem;
+  }
+  .app-text {
+    margin: auto;
+    padding-top: 5rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+  }
+  .app-button {
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+    margin: auto;
+  }
+  .about {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0rem;
+  }
+  .about-img {
+    display: none;
+  }
+  .imgResponsive {
+    margin: auto;
+    display: block;
+    -webkit-padding-before: 10rem;
+            padding-block-start: 10rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .about-text {
+    padding: 0rem;
+    margin: auto;
+  }
+  .possibilities {
+    padding: 12rem 2rem;
+  }
+  .possibilities-main {
+    display: block;
+  }
+  .possibilities-main-container {
+    display: -webkit-box;
+    -webkit-padding-after: 4rem;
+            padding-block-end: 4rem;
+  }
+  .possibilities-img {
+    width: 85px;
+  }
+  .possibilities-text {
+    margin: auto;
+  }
+  .img {
+    width: 70px;
+  }
+  .app-download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .app-phone-number {
+    width: 72%;
+    margin: auto;
+    direction: rtl;
+  }
+  .app-download-img {
+    width: 100%;
+    margin: auto;
+  }
+  .membership {
+    padding: 12rem 4rem;
+  }
+  .membership-main {
+    display: block;
+    margin: auto;
+  }
+  .membership-main-img {
+    margin: auto;
+  }
+  .membership-text {
+    width: auto;
+    padding: 5rem;
+  }
+  .membership-doctor-img {
+    width: none;
+  }
+  .footer-brand {
+    width: 7%;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1000px) {
+  .closebtn {
+    float: left;
+    padding-left: 6rem;
+  }
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .app {
+    display: -ms-grid;
+    display: grid;
+  }
+  .app-img {
+    margin: auto;
+    float: none;
+    padding-left: 0rem;
+  }
+  .app-text {
+    margin: auto;
+    padding-top: 5rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+  }
+  .app-button {
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+    margin: auto;
+  }
+  .about {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0rem;
+  }
+  .about-img {
+    display: none;
+  }
+  .imgResponsive {
+    margin: auto;
+    display: block;
+    -webkit-padding-before: 10rem;
+            padding-block-start: 10rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .about-section {
+    padding-right: 3rem;
+  }
+  .about-text {
+    padding: 0rem;
+    margin: auto;
+  }
+  .about-images {
+    display: none;
+  }
+  .possibilities {
+    padding: 12rem 2rem;
+  }
+  .possibilities-main {
+    display: block;
+  }
+  .possibilities-main-container {
+    display: -webkit-box;
+    -webkit-padding-after: 4rem;
+            padding-block-end: 4rem;
+  }
+  .possibilities-img {
+    width: 85px;
+  }
+  .possibilities-text {
+    margin: auto;
+  }
+  .img {
+    width: 70px;
+  }
+  .app-download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .app-phone-number {
+    width: 79%;
+    margin: auto;
+    direction: rtl;
+  }
+  .app-download-img {
+    width: 100%;
+    margin: auto;
+  }
+  .membership {
+    padding: 12rem 4rem;
+  }
+  .membership-main {
+    display: block;
+    margin: auto;
+  }
+  .membership-main-img {
+    margin: auto;
+  }
+  .membership-text {
+    width: auto;
+    padding: 2rem;
+  }
+  .membership-doctor-img {
+    width: none;
+  }
+  .cover {
+    padding: 2rem 1rem;
+  }
+  .footer-brand {
+    width: 7%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 760px) {
+  .closebtn {
+    float: left;
+    padding-left: 6rem;
+  }
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .app {
+    display: -ms-grid;
+    display: grid;
+  }
+  .app-img {
+    margin: auto;
+    float: none;
+    padding-left: 0rem;
+  }
+  .app-text {
+    margin: auto;
+    padding-top: 5rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+  }
+  .app-button {
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+    margin: auto;
+  }
+  .about {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0rem;
+  }
+  .about-img {
+    display: none;
+  }
+  .imgResponsive {
+    margin: auto;
+    display: block;
+    -webkit-padding-before: 10rem;
+            padding-block-start: 10rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .about-section {
+    padding-right: 3rem;
+  }
+  .about-text {
+    padding: 0rem;
+    margin: auto;
+  }
+  .about-images {
+    display: none;
+  }
+  .possibilities {
+    padding: 12rem 2rem;
+  }
+  .possibilities-main {
+    display: block;
+    overflow: hidden;
+  }
+  .possibilities-main-container {
+    display: -webkit-box;
+    -webkit-padding-after: 4rem;
+            padding-block-end: 4rem;
+  }
+  .possibilities-img {
+    width: 85px;
+  }
+  .possibilities-text {
+    margin: auto;
+    padding-right: 1rem;
+  }
+  .img {
+    width: 70px;
+  }
+  .app-download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .app-phone-number {
+    width: 100%;
+    margin: auto;
+    direction: rtl;
+  }
+  .app-download-img {
+    width: 100%;
+    margin: auto;
+  }
+  .membership {
+    padding: 12rem 2rem;
+  }
+  .membership-main {
+    display: block;
+    margin: auto;
+  }
+  .membership-main-img {
+    margin: auto;
+  }
+  .membership-text {
+    width: auto;
+    padding: 2rem;
+  }
+  .membership-doctor-img {
+    width: none;
+    width: 350px;
+    padding: 4rem 3rem 0rem 0rem;
+  }
+  .cover {
+    padding: 2rem 1rem;
+  }
+  .footer-brand {
+    width: 7%;
+  }
+  .android {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 650px) {
+  .closebtn {
+    float: left;
+    padding-left: 6rem;
+  }
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .app {
+    display: -ms-grid;
+    display: grid;
+  }
+  .app-img {
+    margin: auto;
+    float: none;
+    padding-left: 0rem;
+  }
+  .app-text {
+    margin: auto;
+    padding-top: 5rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+  }
+  .app-button {
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+    margin: auto;
+  }
+  .about {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0rem;
+  }
+  .about-img {
+    display: none;
+  }
+  .imgResponsive {
+    margin: auto;
+    display: block;
+    -webkit-padding-before: 10rem;
+            padding-block-start: 10rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .about-section {
+    padding-right: 3rem;
+  }
+  .about-text {
+    padding: 0rem;
+    margin: auto;
+  }
+  .about-images {
+    display: none;
+  }
+  .possibilities {
+    padding: 12rem 2rem;
+  }
+  .possibilities-main {
+    display: block;
+    overflow: hidden;
+  }
+  .possibilities-main-container {
+    display: -webkit-box;
+    -webkit-padding-after: 4rem;
+            padding-block-end: 4rem;
+  }
+  .possibilities-img {
+    width: 85px;
+  }
+  .possibilities-text {
+    margin: auto;
+    padding-right: 1rem;
+  }
+  .img {
+    width: 70px;
+  }
+  .app-download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .app-phone-number {
+    width: 100%;
+    margin: auto;
+    direction: rtl;
+  }
+  .app-download-img {
+    width: 100%;
+    margin: auto;
+  }
+  .membership {
+    padding: 12rem 1rem;
+  }
+  .membership-main {
+    display: block;
+    margin: auto;
+  }
+  .membership-main-img {
+    margin: auto;
+  }
+  .membership-text {
+    width: auto;
+    -webkit-padding-before: 2rem;
+            padding-block-start: 2rem;
+    -webkit-padding-after: 2rem;
+            padding-block-end: 2rem;
+  }
+  .membership-doctor-img {
+    width: none;
+    width: 300px;
+    padding: 4rem 4rem 0rem 0rem;
+  }
+  .cover {
+    padding: 2rem 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  .footer-brand {
+    width: 13%;
+  }
+  .app-download-link > a.android {
+    display: none;
+  }
+  .app-download-link {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .closebtn {
+    float: left;
+    padding-left: 6rem;
+  }
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .app {
+    display: -ms-grid;
+    display: grid;
+  }
+  .app-img {
+    margin: auto;
+    float: none;
+    padding-left: 0rem;
+  }
+  .app-text {
+    margin: auto;
+    padding-top: 5rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+  }
+  .app-button {
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+    margin: auto;
+  }
+  .about {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0rem;
+  }
+  .about-img {
+    display: none;
+  }
+  .imgResponsive {
+    margin: auto;
+    display: block;
+    -webkit-padding-before: 10rem;
+            padding-block-start: 10rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .about-section {
+    padding-right: 3rem;
+  }
+  .about-text {
+    padding: 0rem;
+    margin: auto;
+  }
+  .about-images {
+    display: none;
+  }
+  .possibilities {
+    padding: 12rem 2rem;
+  }
+  .possibilities-main {
+    display: block;
+    overflow: hidden;
+  }
+  .possibilities-main-container {
+    display: -webkit-box;
+    -webkit-padding-after: 4rem;
+            padding-block-end: 4rem;
+  }
+  .possibilities-img {
+    width: 85px;
+  }
+  .possibilities-text {
+    margin: auto;
+    padding-right: 1rem;
+  }
+  .img {
+    width: 70px;
+  }
+  .app-download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .app-phone-number {
+    width: 100%;
+    margin: auto;
+    direction: rtl;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .app-download-img {
+    width: 100%;
+    margin: auto;
+  }
+  .membership {
+    padding: 12rem 1rem;
+  }
+  .membership-main {
+    display: block;
+    margin: auto;
+  }
+  .membership-main-img {
+    margin: auto;
+  }
+  .membership-text {
+    width: auto;
+    -webkit-padding-before: 2rem;
+            padding-block-start: 2rem;
+    -webkit-padding-after: 2rem;
+            padding-block-end: 2rem;
+  }
+  .membership-doctor-img {
+    width: none;
+    width: 300px;
+    padding: 4rem 4rem 0rem 0rem;
+  }
+  .cover {
+    padding: 2rem 0rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  .footer-brand {
+    width: 13%;
+  }
+  .app-download-link > a.android {
+    display: none;
+  }
+  .app-download-link {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .membership-form-send {
+    padding: 0rem 0rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .center-item {
+    display: inline-block;
+  }
+  .display-flex {
+    display: none;
+  }
+  .display-flex1 {
+    display: none;
+  }
+  .width-52 {
+    width: 104%;
+  }
+  .header-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header-button {
+    padding: 13px 27px;
+  }
+  .padding {
+    PADDING: 7rem 0rem;
+    margin: auto;
+  }
+  .padding-darmanito {
+    padding-right: 3rem;
+    padding-top: 5rem;
+  }
+  .col-61 {
+    margin-left: auto;
+    margin-right: 4rem;
+  }
+  .width-52 {
+    width: 161%;
+  }
+  .link {
+    display: none;
+  }
+  .card-disable1 {
+    margin: 0rem;
+  }
+  .card-disable {
+    margin: 0rem;
+  }
+  .card-activated {
+    margin: 0rem 0rem;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1460px) {
+  .cover-s {
+    padding: 2rem 7rem;
+  }
+  .footer-main-s {
+    padding: 4rem 6rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .cover-s {
+    padding: 2rem 2rem;
+  }
+  .footer-main-s {
+    padding: 4rem 1rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cover-s {
+    padding: 2rem 2rem;
+  }
+  .footer-main-s {
+    padding: 4rem 1rem;
+  }
+  .card-disable {
+    margin: 0rem 1rem;
+  }
+  .card-disable1 {
+    margin: 0rem 1rem;
+  }
+  .card-activated {
+    margin: 0rem 1rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 1075px) {
+  .cover-s {
+    padding: 2rem 2rem;
+  }
+  .footer-main-s {
+    padding: 4rem 1rem;
+  }
+  .card-disable {
+    margin: 0rem 1rem;
+  }
+  .card-disable1 {
+    margin: 0rem 1rem;
+  }
+  .card-activated {
+    margin: 0rem 1rem;
+    padding: 1rem 2rem;
+  }
+  .cover-s {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: inherit;
+  }
+  .ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding-bottom: 2rem;
+  }
+  .footer-ul {
+    display: none;
+  }
+  .footer-contact-us {
+    width: 100%;
+  }
+  .link-section {
+    padding-top: 2rem;
+    position: absolute;
+  }
+  .cover-s ul {
+    padding-bottom: 1rem;
+  }
+  .footer-main-s {
+    padding: 4rem 2rem;
+  }
+  .footer-main-link {
+    display: none;
+  }
+  .h1 {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .header-items {
+    display: none;
+  }
+  .p1 {
+    width: 100%;
+    line-height: 30px;
+  }
+  .text {
+    direction: rtl;
+    padding-top: 5rem;
+    padding-right: 0rem;
+  }
+}
+
+.dropDown {
+  display: none;
+}
+
+.dropUp {
+  display: block;
+}
+/*# sourceMappingURL=Style.css.map */
