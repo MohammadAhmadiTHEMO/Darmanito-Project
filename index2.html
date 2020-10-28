@@ -101,25 +101,29 @@
 
         <div class="questions2">
             <div class="card question-actived card-activated">
-                <img class="img heigh-4" src="Assets/img/drugstore.svg" alt="pharmacy" >
+                <img class="img heigh-5" src="Assets/img/drugstore.svg" alt="pharmacy" >
                 <div class="card-body padding-0">
                 <p class="card-text">داروخانه</p>
                 </div>
             </div>
             <div class="card disable  card-disable " >
-                <img class="img heigh-4" src="Assets/img/store.svg" alt="market" >
-                <div class="card-body padding-0">
-                <p class="card-text margin-top">فروشگاه</p>
+                <div class="card-img">
+                    <img class="img heigh-5" src="Assets/img/storefade.svg" alt="market" >
+                    <div class="card-body padding-0">
+                    <p class="card-text margin-top">فروشگاه</p>
+                    </div>
                 </div>
             </div>
             <div class="card disable card-disable ">
-                <img class="img heigh-4" src="Assets/img/online.svg" alt="online-visit">
+                <div class="coming-soon">به زودی</div>
+                <img class="img heigh-5" src="Assets/img/online.svg" alt="online-visit">
                 <div class="card-body padding-0">
                 <p class="card-text margin-top" >ویزیت آنلاین</p>
                 </div>
             </div>
             <div class="card disable card-disable1">
-                <img class="img heigh-4" src="Assets/img/onlineschedule.svg" alt="schedule">
+                <div class="coming-soon">به زودی</div>
+                <img class="img heigh-5" src="Assets/img/onlineschedule.svg" alt="schedule">
                 <div class="card-body padding-0">
                 <p class="card-text margin-top" >نوبت دهی آنلاین</p>
                 </div>
@@ -129,31 +133,43 @@
         <div class="padding-darmanito text-align-right" style="padding-top: 0rem; padding-left: 8rem; padding-bottom: 12rem;">
             <div>
                 <div>
-                   <h5 style="color: #0061b6;"> هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟ <span style="font-size: 3rem;margin-left: 1rem; color:  #0061b6 ;"> + </span></h5> 
+                   <h5 style="color: #0061b6;"> هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟ 
+                    <span id="nagative" style="font-size: 3rem;margin-left: 1rem; cursor: pointer; color:  #0061b6 ;" onclick="closeDropDown('dop1', 'nagative')"> + </span></h5> 
+                </div>
+                <div id="dop1" style="padding-block-end: 1rem;padding-top: 1rem; padding-right: 8rem; display: none;">  
+                    <h6 class="possibilities-title" style="color: black;">خیر، ما هم اکنون در تهران در حال فعالیت هستیم</h6>
                 </div>
                 <hr>
             </div>
             <div>
                 <div>
-                   <h5 style="color: #0061b6;"> هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟ <span style="font-size: 3rem;margin-left: 1rem; color:  #0061b6 ;"> + </span></h5> 
+                   <h5 style="color: #0061b6;"> هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟ 
+                    <span id="nagative1" style="font-size: 3rem;margin-left: 1rem; cursor: pointer; color:  #0061b6 ;" onclick="closeDropDown1('dop2', 'nagative1')"> + </span></h5>
+                </div>
+                <div id="dop2" style="padding-block-end: 1rem;padding-top: 1rem; padding-right: 8rem; display: none;">  
+                    <h6 class="possibilities-title" style="color: black;">خیر، ما هم اکنون در تهران در حال فعالیت هستیم</h6>
                 </div>
                 <hr>
             </div>
             <div>
                 <div>
-                    <h5 style="color: #0061b6;"> درمانیتو فقط در تهران و کرج فعال هست؟
-                        <span id="nagative" style="font-size: 3rem;margin-left: 1rem; color:  #0061b6 ;" onclick="closeDropDown('dop1')"> - </span>
-                        <span id="nagative2" style="font-size: 3rem;margin-left: 1rem; color:  #0061b6 ;" onclick="closeDropDown('dop1')"> + </span>
+                    <h5 style="color: #0061b6;">
+                        درمانیتو فقط در تهران و کرج فعال هست؟
+                        <span id="nagative2" style="font-size: 3rem;margin-left: 1rem; cursor: pointer; color:  #0061b6 ;" onclick="closeDropDown2('dop3', 'nagative2')"> - </span></h5>
                     </h5> 
                 </div>
-                <div id="dop1" style="padding-block-end: 1rem;padding-top: 1rem; padding-right: 8rem;">  
+                <div id="dop3" style="padding-block-end: 1rem;padding-top: 1rem; padding-right: 8rem;">  
                     <h6 class="possibilities-title" style="color: black;">خیر، ما هم اکنون در تهران در حال فعالیت هستیم</h6>
                 </div>
                 <hr>    
             </div>
             <div>
                 <div>
-                   <h5 style="color: #0061b6;"> هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟ <span style="font-size: 3rem;margin-left: 1rem; color:  #0061b6 ;" > + </span></h5>
+                   <h5 style="color: #0061b6;"> هزینه ای درمانیتو برای پیدا کردن دارو دریافت میکنه؟ 
+                    <span id="nagative3" style="font-size: 3rem;margin-left: 1rem; cursor: pointer; color:  #0061b6 ;" onclick="closeDropDown3('dop4', 'nagative3')"> + </span></h5>
+                </div>
+                <div id="dop4" style="padding-block-end: 1rem;padding-top: 1rem; padding-right: 8rem; display: none;">  
+                    <h6 class="possibilities-title" style="color: black;">خیر، ما هم اکنون در تهران در حال فعالیت هستیم</h6>
                 </div>
                 <hr>
             </div>
