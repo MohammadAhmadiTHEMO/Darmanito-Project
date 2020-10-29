@@ -1,2 +1,122 @@
+/* ------------------- General --------------------- */
 
+.heigh-auto {
+    height: auto;
+ }
+ .border-none {
+    border: none;
+}
+.box-container {
+    box-shadow: 0px 0px 8px #a3daf1;    
+    border-radius: 2rem;
+}
+.padding-block-end-1rem {
+    padding-block-end: 1rem;
+}
+.width-52 {
+    width: 52%;
+}
+.padding {
+    PADDING: 12rem 7rem;
+}
+.padding1 {
+    padding-top: 8rem;
+}
+.text-align-right {
+    text-align: right;
+}
+.padding-left {
+    padding-left: 23.5rem;
+}
+.padding-left1 {
+    padding-left: 15rem;
+    padding-right: 10rem;
+}
+.padding-left2 {
+    padding-left: 2rem;
+    padding-right: 23rem;
+    padding-top: 0rem;
+}
+
+.padding2 {
+    padding-left: 22rem;
+    padding-bottom: 2rem;
+}
+.padding3 {
+    padding-left: 25rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.padding4 {
+    padding-right: 11rem;
+    padding-left: 10rem;
+    padding-bottom: 2rem;
+}
+.font-size1 {
+    font-size: 11px;
+}
+.font-size-15px {
+    font-size: 15px;
+}
+
+.card-body-container {
+    display: flex;flex-wrap: wrap-reverse;align-items: center;white-space: pre-wrap;line-height: 0rem;justify-content: center;
+    display: flex;flex-wrap: wrap-reverse;align-items: center;white-space: pre-wrap;line-height: 0rem;justify-content: center;  
+}
+.Drug-name {
+    position: absolute;text-align-last: right ;font-size: larger;
+    position: absolute;text-align-last: right ;font-size: larger;
+}
+.border-radios-2rem {
+    border-radius: 2rem;
+}
+.flex-auto {
+    flex: auto;
+}
+.display-flex {
+    display: flex;justify-content: center;height: 9rem;
+}
+.width-42 {
+    width: 42%;line-height: 2rem;
+}
+.display-flex1 {
+    display: flex;place-content: flex-end;
+}
+.heigh-5 {
+    height: 5rem;
+    padding-top: 1rem;
+}
+.padding-0 {
+    padding: 0px;
+}
+.questions2 {
+    text-align: center;display: flex;justify-content: center;flex-direction: row-reverse; padding-block-end: 5rem;
+}
+.card-activated {
+    width: 10rem;
+    height: 11rem; 
+    align-items: center; 
+    padding: 1rem 3rem;
+    margin: 0rem 4rem;
+}
+.card-disable {
+    width: 10rem;
+    height: 11rem; 
+    border-radius: 25px;
+    padding: 1rem 1rem; 
+    align-items: center; margin: 0rem 4rem;
+}
+.card-disable1 {
+    width: 10rem; 
+    height: 11rem; 
+    border-radius: 25px;
+    padding: 1rem 1rem; 
+    align-items: center; margin: 0rem 4rem;
+}
+.margin-top {
+    margin-top: 4px;
+}
+.padding-17 {
+    padding-block-start: 17rem;
+}
 

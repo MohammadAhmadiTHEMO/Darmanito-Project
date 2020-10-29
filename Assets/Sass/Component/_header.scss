@@ -1,0 +1,152 @@
+@import "../Lib/vars";
+
+/* ------------------- Darmanito Header --------------------- */
+
+h1 {
+    color: $secoundary-color;
+ }
+
+.header {
+    font-size: x-large;
+}
+
+.header-main {
+    display: flex;
+    direction: rtl;
+    padding-block-start: 1.5rem;
+    padding-inline-start: 6rem;
+    padding-block-end: 1.5rem;
+    padding-inline-end: 1rem;
+}
+
+.header-items {
+    margin: auto;
+}
+.header-items-button {
+    background-color: #E6F3FF;
+    border: none;
+    color: $primary-color;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.header-li {
+    list-style: none;
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+.home-page-header-ul {
+    margin-top: 0rem;
+
+}
+.header-ul {
+    margin-top: 0.85rem;
+}
+
+.header-li-a {
+    text-decoration: none;
+    color : black;
+    font-size: 20px;
+    padding-right: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: $secoundary-color;
+ }
+ .link1 {
+    text-decoration: none;
+    color: $secoundary-color;
+ }
+
+ /* ------------------- Darmanito Burger --------------------- */
+
+.burger{
+    display: block;
+    margin-right: auto;
+}
+
+.burger-main {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .burger-header {
+    direction: rtl;
+    padding-block-start: -2rem;
+    padding-inline-start: 5rem;
+    padding-block-end: 5rem;
+}
+.burger-header-logo {
+    margin-right: -3.2rem;
+}
+.burger-nav {
+    padding-right: 3rem;
+}
+
+
+  .burger-nav-title {
+    color: $secoundary-color;
+    border-right: $border-right-4;
+    padding-right: 1rem;
+}
+  .burger-nav-button {
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+.burger-nav-button-style {
+    background-color: #E6F3FF;
+    border: none;
+    color: $primary-color;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+  .burger-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1f62e0;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .burger-nav a:hover {
+    color: #4e5fff;
+  }
+  
+  .burger-nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .color-black {
+    color: black;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .burger-nav {padding-top: 15px;}
+    .burger-nav a {font-size: 18px;}
+  }
