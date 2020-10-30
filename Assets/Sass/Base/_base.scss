@@ -19,22 +19,20 @@
     font-size: x-large;
     padding-block-start: 7rem;
  }
-
-.human {
-    float: right;
-    padding-left: 9px;
-}
-
  .app-img {
     float: left;    
     padding-left: 8rem;
  }
-
  .app-text {
     direction: rtl;
     padding-inline-start: 7rem;
     padding-block-start: 8rem;
  }
+
+.human {
+    float: right;
+    padding-left: 9px;
+}
 
  .app-text-p {
      font-size:1.2rem;
@@ -65,45 +63,12 @@
     @extend .app-button-style ;
         background-color: white;
         border-color: $border-color;
-        border-style: double;
+        border-style: solid;
         color: $primary-color;
         padding: 13px 30px;
  }
 
   /* ------------------- Darmanito About --------------------- */
-
- .padding-darmanito {
-    padding-right: 8rem;
-    padding-top: 5rem;
- }
- .max-inline-size {
-    max-inline-size: fit-content;
- }
- .padding-top {
-    padding-top: 5rem;
-    padding-bottom: 8rem;
-}
-.text-align-center-margin {    
-    text-align: center;
-    margin: 0rem 5rem;
-}
-.text-align-right-margin-map {    
-    text-align: right;
-    margin: 0rem 5rem;
-}
-.text-align-center {
-    text-align: center;
-}
-.color-white {
-    color: white;
-}
-.margin-betwin1 {
-    margin-inline-end: 15rem;
-}
-.padding5 {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-}
 
 .about {
     display: inline-flex;
@@ -263,30 +228,31 @@
     display: flex;
     position: relative;
     margin-bottom: 2rem;
-    #{&}-img {
-        width: 50%;
-    }
-    #{&}-imgz img {
-            width: 40%;
-            margin: 0 auto;
-            display: flex;
-            padding-top: 2rem;
-            border-radius: 45px 45px 0px 0px;
-    }
-    #{&}-link {
+}
+.app-download-img {
+    width: 50%;
+}
+.app-download-img img {
+        width: 40%;
+        margin: 0 auto;
         display: flex;
-        justify-content: space-between;
         padding-top: 2rem;
-    }
-    #{&}-link a {
-        @extend #{&}-link;
-        align-items: center;
-        background-color: #2162b7;
-        color: white;
-        text-decoration: none;
-        padding: 0.4rem 1rem;
-        border-radius: 9px
-    }
+        border-radius: 45px 45px 0px 0px;
+}
+.app-download-link {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.app-download-link a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2162b7;
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 9px
 }
 
 .app-phone-number {
@@ -296,51 +262,50 @@
     direction: rtl;
     padding: 6rem 5rem;
     color: white;
-    #{&}-h {
-        padding-top: 1.5rem;
-    }
-    #{&} h1 {
-        padding-top: 1rem;
-    }
-    #{&}-send {
-        display: flex;
-        justify-content: center;
-        padding-top: 2rem;
-        #{&} input {
-            width: 82%;
-            padding: 0.7rem;
-            border: none;
-            border-radius: 0px 15px 15px 0px;
-            text-align: center;
-            font-size: 20px;
-            &:focus {
-                outline: 0;
-            }
-        
-        }
-        #{&} button {
-            border: none;
-            background-color: white;
-            padding: 1rem;
-            border-radius: 15px 0px 0px 15px;
-            #{&} h4 {
-                background-color: $primary-color;
-                color: white;
-                padding: 0.7rem 2rem;
-                font-size: 20px;
-                border-radius: 15px;
-                cursor: pointer;
-            }
-            &:focus {
-                outline: 0;
-            }
-        }
-    }
-    &::placeholder {
-        font-size: 15px;
-    }
-    
 }
+.app-phone-number-h {
+    padding-top: 1.5rem;
+}
+.app-phone-number h1 {
+    padding-top: 1rem;
+}
+.app-phone-number-send {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.app-phone-number-send input {
+    width: 82%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.app-phone-number-send input:focus {
+    outline: 0;
+}
+.app-phone-number-send button {
+    border: none;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px 0px 0px 15px; 
+}
+.app-phone-number-send button h4 {
+    background-color: $primary-color;
+    color: white;
+    padding: 0.7rem 2rem;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.app-phone-number-send button:focus {
+    outline: 0;
+}
+::placeholder {
+    font-size: 15px;
+}
+
 
 .android p {
     padding-right: 1rem;
@@ -366,91 +331,89 @@
 }
 
 #error2 {
-    padding: 1rem;
-    color: red;
-    font-size: 15px;
-    display: none;
+    @extend #error;
 }
 
  /* ------------------- Darmanito Membership --------------------- */
 
 .membership {
     padding: 2rem 10rem;
-    #{&}-main {
-        display: flex;
-        box-shadow: 0px 0px 10px #7cc6e6;
-        border-radius: 12px;
-        #{&} img {
-            width: 50%;
-        }
-    }
-    #{&}-text {
-        width: 65%;
-        padding-top: 2rem;
-        #{&}-title {
-            direction: rtl;
-            display: flex;
-            border-right: $border-right-2;
-            width: 85%;
-            margin: 0 auto;
-            padding-right: 0.8rem;
-            border-radius: 3px;
-            color: $secoundary-color;
-            text-underline-position: under;
-            #{&}-a {
-                text-decoration: none;
-                color: $secoundary-color;
-            }
-        }
-        #{&}-p {
-            direction: rtl;
-            padding: 3rem;
-        }
-    }
-    #{&}-doctor-img {
-        width: 400px;
-        padding: 4rem 2rem 0rem 2rem;
-    }
-    #{&}-form-send {
-        display: flex;
-        justify-content: center;
-        padding: 0rem 2rem;
-        direction: rtl;
-        #{&} input {
-            width: 82%;
-            padding: 0.7rem;
-            border: none;
-            border-radius: 0px 15px 15px 0px;
-            text-align: center;
-            font-size: 20px;
-            background-color: rgb(224, 224, 224);
-            & ::placeholder {
-                font-size: 15px;
-            }
+}
+.membership-main {
+    display: flex;
+    box-shadow: 0px 0px 10px #7cc6e6;
+    border-radius: 12px;
+}
+.membership-main-img {
+    width: 50%;
+}
+.membership-doctor-img {
+    width: 400px;
+    padding: 4rem 2rem 0rem 2rem;
+}
+.membership-text {
+    width: 65%;
+    padding-top: 2rem;
+}
+.membership-text-title {
+    direction: rtl;
+    display: flex;
+    border-right: $border-right-2;
+    width: 85%;
+    margin: 0 auto;
+    padding-right: 0.8rem;
+    border-radius: 3px;
+    color: $secoundary-color;
+    text-underline-position: under;
+}
+.membership-text-title a {
+    text-decoration: none;
+    color: $secoundary-color;
+}
+.membership-text-p {
+    direction: rtl;
+    padding: 3rem;
+}
+.membership-form-send {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 2rem;
+    direction: rtl;
+    & button {
+        border: none;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 15px 0px 0px 15px;
+        background-color: rgb(224, 224, 224);
+        width: 45%;
+        & p {
+            background-color: $primary-color;
+            color: white;
+            padding: 0.7rem 2rem;
+            font-size: 15px;
+            border-radius: 15px;
+            cursor: pointer;
             & :focus {
                 outline: 0;
             }
         }
-        #{&} button {
-            border: none;
-            background-color: white;
-            padding: 1rem;
-            border-radius: 15px 0px 0px 15px;
-            background-color: rgb(224, 224, 224);
-            width: 45%;
-            #{&} p {
-                background-color: $primary-color;
-                color: white;
-                padding: 0.7rem 2rem;
-                font-size: 15px;
-                border-radius: 15px;
-                cursor: pointer;
-                & :focus {
-                    outline: 0;
-                }
-            }
-        }
     }
+}
+.membership-form-send input {
+    width: 82%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(224, 224, 224);
+
+}
+::placeholder {
+    font-size: 15px;
+}
+.membership-form-send input:focus {
+    outline: 0;
 }
 
 /* ------- (Index1) Darmanito membership ------- */
@@ -462,13 +425,12 @@
     direction: rtl;
     margin: auto;
     padding: 0rem 2rem;
-}
-
+} 
 .col-6-send {
-        display: flex;
-        justify-content: center;
-        padding-top: 2rem;
-    }
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;  
+}
 .col-6-send input {
     width: 82%;
     padding: 0.7rem;
@@ -477,7 +439,7 @@
     text-align: center;
     font-size: 20px;
 }
-    ::placeholder {
+::placeholder {
     font-size: 15px;
 }
 .col-6-send input:focus {
@@ -500,7 +462,6 @@
 .col-6-send button:focus {
     outline: 0;
 }
-
 
 /* ------------------- Darmanito Questions --------------------- */
 
@@ -531,6 +492,24 @@
     padding-top: 1rem;
 }
 
+/* ------------------- Darmanito Contact-us --------------------- */
+
+.txt {
+    position: relative;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    top: 326px;
+    left: 0px;
+    border-radius: 20px;
+  }
+
 /* ------------------- Darmanito Footer --------------------- */
 
 .cover {
@@ -539,7 +518,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    #{&}-contact li p {
+        background: rgb(0, 0, 180);
+        color: white;
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    & ul {
+        list-style: none;
+    }
 }
+
 .cover-s {
     background-color: $primary-color;
     padding: 2rem 10rem;
@@ -547,9 +536,11 @@
     justify-content: space-between;
     align-items: center;
 }
-
-.cover ul {
-    list-style: none;
+.cover-contact li p {
+    background: rgb(0, 0, 180);
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
 }
 .cover-s ul {
     list-style: none;
@@ -567,30 +558,30 @@
     padding-right: 1.5rem;
 }
 
-.cover-contact li p {
-    background: rgb(0, 0, 180);
-    color: white;
-    padding: 1rem;
-    border-radius: 15px;
-}
-
 .footer-main {
     padding: 4rem 10rem;
     display: flex;
     justify-content: space-between;
+}
+.footer-main-link {
+    text-decoration: none;
+    color: $secoundary-color;
+ }
+ .footer-main-title {
+    display: flex;
+    justify-content: center;
 }
 .footer-main-s {
     padding: 4rem 10rem;
     display: flex;
     justify-content: space-between;
 }
-
 .footer-main-link {
     text-decoration: none;
     color: $secoundary-color;
- }
+}
 
- .footer-main-link-title {
+.footer-main-link-title {
     display: flex;
     justify-content: center;
 }
@@ -600,7 +591,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .footer-ul ul {
     list-style-type: none;
     text-align: end;
@@ -614,6 +604,7 @@
     text-decoration: none;
     color: gray;
 }
+
 .footer-li-a-style {
     border-right: $border-right-4;
     padding-right: 0.8rem;
@@ -627,7 +618,6 @@
     border-right: $border-right-2;
     padding-right: 0.5rem;
 }
-
 .link-disabled {
     color: gray;
 }
@@ -635,7 +625,6 @@
 .footer-contact-us {
     width: 30%;
 }
-
 .footer-contact-us h4 {
     direction: rtl;
     padding-top: 1rem;

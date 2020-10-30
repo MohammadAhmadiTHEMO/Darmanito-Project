@@ -1,3 +1,5 @@
+/* ------------------- Generals --------------------- */
+/* ------------------- Colors  --------------------- */
 @font-face {
   src: url("../fonts/Yekan.ttf");
   font-family: Yekan;
@@ -19,11 +21,6 @@
           padding-block-start: 7rem;
 }
 
-.human {
-  float: right;
-  padding-left: 9px;
-}
-
 .app-img {
   float: left;
   padding-left: 8rem;
@@ -35,6 +32,11 @@
           padding-inline-start: 7rem;
   -webkit-padding-before: 8rem;
           padding-block-start: 8rem;
+}
+
+.human {
+  float: right;
+  padding-left: 9px;
 }
 
 .app-text-p {
@@ -50,14 +52,14 @@
           padding-block-start: 2rem;
 }
 
-.app-button-style {
-  background-color: #1894FF;
+.app-button-style, .app-button-style-without-color, .without-color {
+  display: inline-block;
+  background-color: #1091ff;
   border: none;
   color: white;
   padding: 13px 40px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
@@ -67,63 +69,12 @@
 .app-button-style-without-color, .without-color {
   background-color: white;
   border-color: #c2daff;
-  border-style: double;
-  color: #1894FF;
+  border-style: solid;
+  color: #1091ff;
   padding: 13px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 10px;
 }
 
 /* ------------------- Darmanito About --------------------- */
-.padding-darmanito {
-  padding-right: 8rem;
-  padding-top: 5rem;
-}
-
-.max-inline-size {
-  max-inline-size: -webkit-fit-content;
-  max-inline-size: -moz-fit-content;
-  max-inline-size: fit-content;
-}
-
-.padding-top {
-  padding-top: 5rem;
-  padding-bottom: 8rem;
-}
-
-.text-align-center-margin {
-  text-align: center;
-  margin: 0rem 5rem;
-}
-
-.text-align-right-margin-map {
-  text-align: right;
-  margin: 0rem 5rem;
-}
-
-.text-align-center {
-  text-align: center;
-}
-
-.color-white {
-  color: white;
-}
-
-.margin-betwin1 {
-  -webkit-margin-end: 15rem;
-          margin-inline-end: 15rem;
-}
-
-.padding5 {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-}
-
 .about {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -212,18 +163,7 @@
   display: flex;
 }
 
-.possibilities-main-items-button {
-  width: 100%;
-  border-radius: 25px;
-  cursor: pointer;
-  background-color: white;
-  -webkit-box-shadow: 0px 0px 8px #a3daf1;
-          box-shadow: 0px 0px 8px #a3daf1;
-  border: none;
-  padding: 2rem 3rem;
-}
-
-.actived {
+.possibilities-main-items-button, .actived {
   width: 100%;
   border-radius: 25px;
   cursor: pointer;
@@ -241,11 +181,11 @@
   opacity: 0.5;
 }
 
-.possibilities-main-items-button:focus {
+.possibilities-main-items-button:focus, .actived:focus {
   outline: 0;
 }
 
-.possibilities-main-items-button h3 {
+.possibilities-main-items-button h3, .actived h3 {
   padding-top: 0.5rem;
 }
 
@@ -332,6 +272,33 @@
   border-radius: 45px 45px 0px 0px;
 }
 
+.app-download-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.app-download-link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2162b7;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: 9px;
+}
+
 .app-phone-number {
   width: 50%;
   display: -webkit-box;
@@ -346,8 +313,12 @@
   color: white;
 }
 
-.app-phone-number-h3 {
+.app-phone-number-h {
   padding-top: 1.5rem;
+}
+
+.app-phone-number h1 {
+  padding-top: 1rem;
 }
 
 .app-phone-number-send {
@@ -367,22 +338,6 @@
   border-radius: 0px 15px 15px 0px;
   text-align: center;
   font-size: 20px;
-}
-
-::-webkit-input-placeholder {
-  font-size: 15px;
-}
-
-:-ms-input-placeholder {
-  font-size: 15px;
-}
-
-::-ms-input-placeholder {
-  font-size: 15px;
-}
-
-::placeholder {
-  font-size: 15px;
 }
 
 .app-phone-number-send input:focus {
@@ -409,32 +364,20 @@
   outline: 0;
 }
 
-.app-phone-number-h1 {
-  padding-top: 1rem;
+::-webkit-input-placeholder {
+  font-size: 15px;
 }
 
-.app-download-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 2rem;
+:-ms-input-placeholder {
+  font-size: 15px;
 }
 
-.app-download-link a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #2162b7;
-  color: white;
-  text-decoration: none;
-  padding: 0.4rem 1rem;
-  border-radius: 9px;
+::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+::placeholder {
+  font-size: 15px;
 }
 
 .android p {
@@ -450,18 +393,11 @@
   font-size: 12px;
 }
 
-.sibapp-section {
+.sibapp p .sibapp p-section {
   padding-right: 0.7rem;
 }
 
-#error {
-  padding: 1rem;
-  color: red;
-  font-size: 15px;
-  display: none;
-}
-
-#error2 {
+#error, #error2 {
   padding: 1rem;
   color: red;
   font-size: 15px;
@@ -486,14 +422,14 @@
   width: 50%;
 }
 
-.membership-text {
-  width: 65%;
-  padding-top: 2rem;
-}
-
 .membership-doctor-img {
   width: 400px;
   padding: 4rem 2rem 0rem 2rem;
+}
+
+.membership-text {
+  width: 65%;
+  padding-top: 2rem;
 }
 
 .membership-text-title {
@@ -510,6 +446,11 @@
   text-underline-position: under;
 }
 
+.membership-text-title a {
+  text-decoration: none;
+  color: #0061b6;
+}
+
 .membership-text-p {
   direction: rtl;
   padding: 3rem;
@@ -524,6 +465,28 @@
           justify-content: center;
   padding: 0rem 2rem;
   direction: rtl;
+}
+
+.membership-form-send button {
+  border: none;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #e0e0e0;
+  width: 45%;
+}
+
+.membership-form-send button p {
+  background-color: #1091ff;
+  color: white;
+  padding: 0.7rem 2rem;
+  font-size: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.membership-form-send button p :focus {
+  outline: 0;
 }
 
 .membership-form-send input {
@@ -556,34 +519,7 @@
   outline: 0;
 }
 
-.membership-form-send button {
-  border: none;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 15px 0px 0px 15px;
-  background-color: #e0e0e0;
-  width: 45%;
-}
-
-.membership-form-send button p {
-  background-color: #1091ff;
-  color: white;
-  padding: 0.7rem 2rem;
-  font-size: 15px;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.membership-form-send button:focus {
-  outline: 0;
-}
-
-.membership-text-title-a {
-  text-decoration: none;
-  color: #0061b6;
-}
-
-/* ------- Darmanito membership (Index1) ------- */
+/* ------- (Index1) Darmanito membership ------- */
 .col-6-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -688,6 +624,23 @@
   padding-top: 1rem;
 }
 
+/* ------------------- Darmanito Contact-us --------------------- */
+.txt {
+  position: relative;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  top: 326px;
+  left: 0px;
+  border-radius: 20px;
+}
+
 /* ------------------- Darmanito Footer --------------------- */
 .cover {
   background-color: #1091ff;
@@ -701,6 +654,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.cover .cover-contact li p {
+  background: #0000b4;
+  color: white;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.cover ul {
+  list-style: none;
 }
 
 .cover-s {
@@ -717,8 +681,11 @@
           align-items: center;
 }
 
-.cover ul {
-  list-style: none;
+.cover-contact li p {
+  background: #0000b4;
+  color: white;
+  padding: 1rem;
+  border-radius: 15px;
 }
 
 .cover-s ul {
@@ -743,13 +710,6 @@
   padding-right: 1.5rem;
 }
 
-.cover-contact li p {
-  background: #0000b4;
-  color: white;
-  padding: 1rem;
-  border-radius: 15px;
-}
-
 .footer-main {
   padding: 4rem 10rem;
   display: -webkit-box;
@@ -758,6 +718,20 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.footer-main-link {
+  text-decoration: none;
+  color: #0061b6;
+}
+
+.footer-main-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-main-s {
@@ -946,6 +920,8 @@
   font-size: 1.5rem;
 }
 
+/* ------------------- Generals --------------------- */
+/* ------------------- Colors  --------------------- */
 /* ------------------- Darmanito Header --------------------- */
 h1 {
   color: #0061b6;
@@ -977,7 +953,7 @@ h1 {
 .header-items-button {
   background-color: #E6F3FF;
   border: none;
-  color: #1894FF;
+  color: #1091ff;
   padding: 13px 40px;
   text-align: center;
   text-decoration: none;
@@ -1072,7 +1048,7 @@ h1 {
 .burger-nav-button-style {
   background-color: #E6F3FF;
   border: none;
-  color: #1894FF;
+  color: #1091ff;
   padding: 13px 40px;
   text-align: center;
   text-decoration: none;
@@ -1118,6 +1094,8 @@ h1 {
   }
 }
 
+/* ------------------- Generals --------------------- */
+/* ------------------- Colors  --------------------- */
 /* ------------------- General --------------------- */
 .heigh-auto {
   height: auto;
@@ -1140,6 +1118,14 @@ h1 {
 
 .width-52 {
   width: 52%;
+}
+
+.width-52-1 {
+  width: 52%;
+}
+
+.color-blue {
+  color: #0061b6;
 }
 
 .padding {
@@ -1323,6 +1309,50 @@ h1 {
           padding-block-start: 17rem;
 }
 
+.padding-darmanito {
+  padding-right: 8rem;
+  padding-top: 5rem;
+}
+
+.max-inline-size {
+  max-inline-size: -webkit-fit-content;
+  max-inline-size: -moz-fit-content;
+  max-inline-size: fit-content;
+}
+
+.padding-top {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.text-align-center-margin {
+  text-align: center;
+  margin: 0rem 5rem;
+}
+
+.text-align-right-margin-map {
+  text-align: right;
+  margin: 0rem 5rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.color-white {
+  color: white;
+}
+
+.margin-betwin1 {
+  -webkit-margin-end: 15rem;
+          margin-inline-end: 15rem;
+}
+
+.padding5 {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
 /* ------------------- Darmanito Map --------------------- */
 .map-container {
   overflow: hidden;
@@ -1339,10 +1369,45 @@ h1 {
   position: absolute;
 }
 
+/* ------------------- Generals --------------------- */
+/* ------------------- Colors  --------------------- */
 /* ------------------- Responsive --------------------- */
-@media (min-width: 1400px) and (max-width: 1512px) {
-  .center-item {
+@media (min-width: 1075px) and (max-width: 1512px) {
+  .display-flex {
+    display: block;
+  }
+  .display-flex1 {
+    display: block;
+  }
+  .width-52-1 {
+    width: 80%;
+  }
+  .width-20 {
+    width: 20rem;
+  }
+  .Drug-name {
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 805px) and (max-width: 1075px) {
+  .burger-main {
+    text-align: right;
+  }
+  .col-6-container {
+    padding: 6rem 0rem;
+  }
+  .display-inline-block {
     display: inline-block;
+    margin: auto;
+  }
+  .padding {
+    margin: auto;
+    padding: 5rem 0rem;
+    -webkit-padding-after: 7rem;
+            padding-block-end: 7rem;
+    -webkit-padding-before: 1rem;
+            padding-block-start: 1rem;
   }
   .display-flex {
     display: none;
@@ -1350,24 +1415,161 @@ h1 {
   .display-flex1 {
     display: none;
   }
-  .width-52 {
-    width: 104%;
+  .width-52-1 {
+    width: 100%;
   }
-  .header-ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .Drug-name {
+    padding-right: 5rem;
   }
-  .header-button {
-    padding: 13px 27px;
+}
+
+@media (min-width: 605px) and (max-width: 805px) {
+  .burger-main {
+    text-align: right;
+  }
+  .col-6-container {
+    margin-left: 11em;
+    padding: 0rem 0rem;
+    -webkit-padding-before: 5rem;
+            padding-block-start: 5rem;
+  }
+  .display-inline-block {
+    display: inline-block;
+    margin: auto;
   }
   .padding {
-    PADDING: 7rem 0rem;
     margin: auto;
+    padding: 0rem 0rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+    -webkit-padding-before: 3rem;
+            padding-block-start: 3rem;
+  }
+  .display-flex {
+    display: none;
+  }
+  .display-flex1 {
+    display: none;
+  }
+  .width-52-1 {
+    width: 122%;
+  }
+  .Drug-name {
+    padding-right: 0rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 605px) {
+  .burger-main {
+    text-align: right;
+  }
+  .col-6-container {
+    padding: 0rem 0rem;
+    -webkit-padding-before: 5rem;
+            padding-block-start: 5rem;
+    margin-left: 11em;
+  }
+  .display-inline-block {
+    display: inline-block;
+    margin: auto;
+  }
+  .padding {
+    margin: auto;
+    padding: 0rem 0rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+    -webkit-padding-before: 3rem;
+            padding-block-start: 3rem;
+  }
+  .display-flex {
+    display: none;
+  }
+  .display-flex1 {
+    display: none;
+  }
+  .width-52-1 {
+    width: 140%;
+  }
+  .width-100 {
+    width: 103%;
+  }
+  .Drug-name {
+    padding-right: 0rem;
   }
   .padding-darmanito {
     padding-right: 3rem;
-    padding-top: 5rem;
+  }
+  .font-size {
+    font-size: 26px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  .col-6-send {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  .col-6-send input {
+    width: 110%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  .burger-main {
+    text-align: right;
+  }
+  .col-6-container {
+    padding: 0rem 0rem;
+    -webkit-padding-before: 5rem;
+            padding-block-start: 5rem;
+    margin-left: 11em;
+  }
+  .display-inline-block {
+    display: inline-block;
+    margin: auto;
+  }
+  .padding {
+    margin: auto;
+    padding: 0rem 0rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+    -webkit-padding-before: 3rem;
+            padding-block-start: 3rem;
+  }
+  .display-flex {
+    display: none;
+  }
+  .display-flex1 {
+    display: none;
+  }
+  .width-52-1 {
+    width: 160%;
+  }
+  .width-100 {
+    width: 120%;
+  }
+  .Drug-name {
+    padding-right: 0rem;
+  }
+  .padding-darmanito {
+    padding-right: 3rem;
+  }
+  .font-size {
+    font-size: 26px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  .col-6-send {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  .col-6-send input {
+    width: 110%;
   }
 }
 
@@ -2289,6 +2491,151 @@ h1 {
   }
   .card-activated {
     margin: 0rem 0rem;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 400px) {
+  .closebtn {
+    float: left;
+    padding-left: 6rem;
+  }
+  .header-main {
+    -webkit-padding-start: 2rem;
+            padding-inline-start: 2rem;
+    -webkit-padding-end: 2rem;
+            padding-inline-end: 2rem;
+  }
+  .app {
+    display: -ms-grid;
+    display: grid;
+  }
+  .app-img {
+    margin: auto;
+    float: none;
+    padding-left: 0rem;
+  }
+  .app-text {
+    margin: auto;
+    padding-top: 5rem;
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+  }
+  .app-button {
+    -webkit-padding-start: 0rem;
+            padding-inline-start: 0rem;
+    margin: auto;
+  }
+  .about {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0rem;
+  }
+  .about-img {
+    display: none;
+  }
+  .imgResponsive {
+    margin: auto;
+    display: block;
+    -webkit-padding-before: 10rem;
+            padding-block-start: 10rem;
+    -webkit-padding-after: 5rem;
+            padding-block-end: 5rem;
+  }
+  .about-section {
+    padding-right: 3rem;
+  }
+  .about-text {
+    padding: 0rem;
+    margin: auto;
+  }
+  .about-images {
+    display: none;
+  }
+  .possibilities {
+    padding: 12rem 2rem;
+  }
+  .possibilities-main {
+    display: block;
+    overflow: hidden;
+  }
+  .possibilities-main-container {
+    display: -webkit-box;
+    -webkit-padding-after: 4rem;
+            padding-block-end: 4rem;
+  }
+  .possibilities-img {
+    width: 85px;
+  }
+  .possibilities-text {
+    margin: auto;
+    padding-right: 1rem;
+  }
+  .img {
+    width: 70px;
+  }
+  .app-download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .app-phone-number {
+    width: 100%;
+    margin: auto;
+    direction: rtl;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .app-download-img {
+    width: 100%;
+    margin: auto;
+  }
+  .membership {
+    padding: 12rem 1rem;
+  }
+  .membership-main {
+    display: block;
+    margin: auto;
+  }
+  .membership-main-img {
+    margin: auto;
+  }
+  .membership-text {
+    width: auto;
+    -webkit-padding-before: 2rem;
+            padding-block-start: 2rem;
+    -webkit-padding-after: 2rem;
+            padding-block-end: 2rem;
+  }
+  .membership-doctor-img {
+    width: none;
+    width: 300px;
+    padding: 4rem 4rem 0rem 0rem;
+  }
+  .cover {
+    padding: 2rem 0rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  .footer-brand {
+    width: 13%;
+  }
+  .app-download-link > a.android {
+    display: none;
+  }
+  .app-download-link {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .membership-form-send {
+    padding: 0rem 0rem;
   }
 }
 

@@ -4,32 +4,201 @@
 
 /* ------------------- Responsive --------------------- */
 
-@media(min-width:1400px) and (max-width:1512px) {
-    .center-item {
-        display: inline-block;
+@media(min-width:1075px) and (max-width:1512px) {
+    // .center-item {
+    //     display: inline-block;
+    // }
+    .display-flex {
+        display: block;
     }
+    .display-flex1 {
+        display: block;
+    }
+    .width-52-1 {
+        width: 80%;
+    }
+    .width-20 {
+        width: 20rem;
+    }
+    // .header-ul {
+    //     display: flex;
+    // }
+    // .header-button {
+    //     padding: 13px 27px;
+    // }
+     
+    // .padding-darmanito {
+    //     padding-right: 3rem;
+    //     padding-top: 5rem;
+    // }
+    .Drug-name {
+        padding-right: 5rem;
+    }
+}
+@media(min-width:805px) and (max-width:1075px) {
+    
+    .burger-main {
+        text-align: right;
+    }
+    .col-6-container {
+        padding: 6rem 0rem;
+    }
+    .display-inline-block {
+        display:inline-block;
+        margin: auto;
+    }
+    .padding {
+        margin: auto;
+        padding: 5rem 0rem;
+        padding-block-end: 7rem;
+        padding-block-start: 1rem;
+     }
     .display-flex {
         display: none;
     }
     .display-flex1 {
         display: none;
     }
-    .width-52 {
-        width: 104%;
+    .width-52-1 {
+        width: 100%;
     }
-    .header-ul {
-        display: flex;
+    .Drug-name {
+        padding-right: 5rem;
     }
-    .header-button {
-        padding: 13px 27px;
+}
+@media(min-width:605px) and (max-width:805px) {
+    
+    .burger-main {
+        text-align: right;
+    }
+    .col-6-container {
+        margin-left: 11em;
+        padding: 0rem 0rem;
+        padding-block-start: 5rem;
+    }
+    .display-inline-block {
+        display:inline-block;
+        margin: auto;
     }
     .padding {
-        PADDING: 7rem 0rem;
         margin: auto;
+        padding: 0rem 0rem;
+        padding-block-end: 5rem;
+        padding-block-start: 3rem;
+     }
+    .display-flex {
+        display: none;
+    }
+    .display-flex1 {
+        display: none;
+    }
+    .width-52-1 {
+        width: 122%;
+    }
+    .Drug-name {
+        padding-right: 0rem;
+    }
+}
+@media(min-width:500px) and (max-width:605px) {
+    
+    .burger-main {
+        text-align: right;
+    }
+    .col-6-container {
+        padding: 0rem 0rem;
+        padding-block-start: 5rem;
+        margin-left: 11em;
+    }
+    .display-inline-block {
+        display:inline-block;
+        margin: auto;
+    }
+    .padding {
+        margin: auto;
+        padding: 0rem 0rem;
+        padding-block-end: 5rem;
+        padding-block-start: 3rem;
+     }
+    .display-flex {
+        display: none;
+    }
+    .display-flex1 {
+        display: none;
+    }
+    .width-52-1 {
+        width: 140%;
+    }
+    .width-100 {
+        width: 103%;
+    }
+    .Drug-name {
+        padding-right: 0rem;
     }
     .padding-darmanito {
         padding-right: 3rem;
-        padding-top: 5rem;
+    }
+    .font-size{
+        font-size: 26px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .col-6-send {
+        flex-flow: column-reverse;
+    }
+    .col-6-send input {
+        width: 110%;
+    }
+}
+@media(min-width:0px) and (max-width:500px) {
+    
+    .burger-main {
+        text-align: right;
+    }
+    .col-6-container {
+        padding: 0rem 0rem;
+        padding-block-start: 5rem;
+        margin-left: 11em;
+    }
+    .display-inline-block {
+        display:inline-block;
+        margin: auto;
+    }
+    .padding {
+        margin: auto;
+        padding: 0rem 0rem;
+        padding-block-end: 5rem;
+        padding-block-start: 3rem;
+     }
+    .display-flex {
+        display: none;
+    }
+    .display-flex1 {
+        display: none;
+    }
+    .width-52-1 {
+        width: 160%;
+    }
+    .width-100 {
+        width: 120%;
+    }
+    .Drug-name {
+        padding-right: 0rem;
+    }
+    .padding-darmanito {
+        padding-right: 3rem;
+    }
+    .font-size{
+        font-size: 26px;
+    }
+    h5 {
+        font-size: 15px;
+    }
+    .col-6-send {
+        flex-flow: column-reverse;
+    }
+    .col-6-send input {
+        width: 110%;
     }
 }
 
@@ -347,6 +516,7 @@
 
 }
 @media(min-width:760px) and (max-width:1000px) {
+    
     
     .closebtn {
         float: left;
@@ -816,8 +986,6 @@
 
 }
 
-      
-
     @media(min-width:500px) and (max-width:800px) {
         .center-item {
             display: inline-block;
@@ -881,7 +1049,7 @@
         .app-img {
             margin: auto;
             float: none;
-            padding-left: 0rem;
+            padding-left: 0rem; 
         }
         .app-text {
             margin: auto;
@@ -991,11 +1159,6 @@
         }
     }
     
-    @include Responsive() {
-            
-        display: none;
-    }
-    
         
     @media(min-width:1300px) and (max-width:1460px) {
         .cover-s {
@@ -1084,21 +1247,6 @@
         .header-items{
             display: none;
         }
-        //   .app-text {
-        //     text-align: center;
-        //     direction: rtl; 
-        //     padding-inline-start: 0rem; 
-        //     padding-block-start: 0rem;
-        //   }
-        //   .app-button-text {
-        //     padding-inline-start: 0rem;
-        //     padding-block-start: 2rem;
-        //     display: flex;
-        //     flex-direction: column;
-        //     align-items: center;
-        //     width: 100%;
-        //     row-gap: 10px;
-        // }
         .p1 {
             width: 100%;
             line-height: 30px;
