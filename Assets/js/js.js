@@ -46,3 +46,14 @@ function openNav() {
       document.getElementById(nagative3).innerHTML = '+'
     }
   }
+
+  //alert
+
+  function alert() { 
+    var name1 = document.getElementById("name").value;
+    document.getElementById("p1").innerHTML = name1;
+    var email = document.getElementById("email").value;
+    document.getElementById("p2").innerHTML = email;
+    var textarea1 = document.getElementById("textarea1").value; 
+    document.getElementById("p3").innerHTML = textarea1;
+  }
